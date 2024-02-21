@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import { useRef } from 'react';
 
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
@@ -13,6 +15,11 @@ const Header = () => {
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
+  const tawkMessengerRef = useRef();
+  const onLoad = () => {
+    console.log('onLoad works!');
+};
+
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -36,6 +43,10 @@ const Header = () => {
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
+      <TawkMessengerReact
+            propertyId="65cdec859131ed19d96d0beb"
+            widgetId="1hmm67qk5"
+            onLoad={onLoad}/>
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
