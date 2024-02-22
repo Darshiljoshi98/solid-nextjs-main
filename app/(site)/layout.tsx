@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 import ToasterContext from "../context/ToastContext";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
+
 export default function RootLayout({
   children,
 }: {
@@ -32,6 +33,8 @@ export default function RootLayout({
           <TawkMessengerReact
             propertyId="65cdec859131ed19d96d0beb"
             widgetId="1hmm67qk5" />
+          
+          
           <Footer />
           <ScrollToTop />
         </ThemeProvider>

@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+import SectionHeader from "../Common/SectionHeader";
+import Link from "next/link";
 
 const Contact = () => {
   /**
@@ -24,7 +26,7 @@ const Contact = () => {
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
             <Image
-              src="./images/shape/shape-dotted-light.svg"
+              src="./images/shape/spiral.svg"
               alt="Dotted"
               className="dark:hidden"
               fill
@@ -202,6 +204,36 @@ const Contact = () => {
               </div>
             </motion.div>
           </div>
+        </div>
+        <div>
+          <SectionHeader
+            headerInfo={{
+              title: "",
+              subtitle: "Our Global Offices",
+              description: "",
+
+            }}
+          />
+           <div id="aboutus-section">
+            <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
+                <Image src="/images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
+                <h3 className='text-center text-blue text-lg tracking-widest'>ABOUT US</h3>
+                <h4 className='text-center text-4xl lg:text-65xl font-bold'>Know more about us.</h4>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
+                 
+                        <div className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>
+                            <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>data</h4>
+                            {/* <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" /> */}
+                            <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>dara</h4>
+                            <Link href="#" className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
+                               
+                                {/* <ChevronRightIcon width={20} height={20} /> */}
+                            </Link>
+                        </div>
+            
+                </div>
+            </div>
+        </div>
         </div>
       </section>
       {/* <!-- ===== Contact End ===== --> */}

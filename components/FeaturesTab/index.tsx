@@ -18,7 +18,7 @@ const FeaturesTab = () => {
             <Image
               fill
               className="dark:hidden"
-              src="/images/shape/shape-dotted-light.svg"
+              src="/images/shape/spiral.svg"
               alt="Dotted Shape"
             />
             <Image
