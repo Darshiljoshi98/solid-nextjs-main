@@ -2,7 +2,6 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Lines from "@/components/Lines";
 import ScrollToTop from "@/components/ScrollToTop";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
@@ -25,15 +24,14 @@ export default function RootLayout({
           enableSystem={false}
           attribute="class"
           defaultTheme="light"
-        >
-          <Lines />
+        >    
+        
           <Header />
           <ToasterContext />
           {children}
           <TawkMessengerReact
             propertyId="65cdec859131ed19d96d0beb"
-            widgetId="1hmm67qk5" />
-          
+            widgetId="1hmm67qk5" />         
           
           <Footer />
           <ScrollToTop />

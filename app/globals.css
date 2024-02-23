@@ -129,3 +129,11 @@ pre {
 .data{
   width:100%;height:600px;border:none;
 }
+
+.success_msg {
+  color: #a8e48a;
+}
+
+.error_msg {
+  color: red;
+}

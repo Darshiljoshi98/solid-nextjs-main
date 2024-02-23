@@ -53,13 +53,7 @@ const menuData: Menu[] = [
         title: "Docs",
         newTab: false,
         path: "/docs",
-      },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
+      },     
       {
         id: 36,
         title: "404",
@@ -67,13 +61,6 @@ const menuData: Menu[] = [
         path: "/error",
       },
     ],
-  },
-
-  {
-    id: 4,
-    title: "Support",
-    newTab: false,
-    path: "/support",
   },
 ];
 
