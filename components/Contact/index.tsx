@@ -41,6 +41,7 @@ const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
+    debugger
     e.preventDefault();
     console.log(user.username)
     console.log(user.email)
