@@ -16,8 +16,7 @@ const Header = () => {
 
   const pathUrl = usePathname();
   const tawkMessengerRef = useRef();
-  const onLoad = (e) => {
-    debugger
+  const onLoad = (e) => {    
     console.log('onLoad works!',e);
 };
 

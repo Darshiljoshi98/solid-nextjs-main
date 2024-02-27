@@ -1,6 +1,9 @@
 "use client";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
+import Link from "next/link";
+
+
 
 const Pricing = () => {
   return (
@@ -189,7 +192,157 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+
+        <div className="animate_top mx-auto text-center">
+          <SectionHeader
+            headerInfo={{
+              title: ``,
+              subtitle: `Message From Ceo`,
+              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+            }}
+          />
+        </div>
+
+        <div className="relative">
+
+          <Image src="./images/shape/spiral.svg" height={272} width={686} alt="spiral-design" className="absolute left-0 hidden lg:block -z-10" />
+
+          <div className='mx-auto max-w-7xl px-4 my-40 sm:py-20 lg:px-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
+              {/* COLUMN-1 */}
+              <div>
+                <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+
+                <div className='col-span-4 pt-4 pl-20' >
+                  <div className='flex gap-4'>
+                    <div className='footer-icons'>
+                      <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* COLUMN-2 */}
+              <div className="relative">
+                <Image src="./images/user/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
+                <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Dedicated to help peoples design needs.</h2>
+                <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis</p>
+                <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start">Darshil Joshi, CEO </p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="animate_top mx-auto text-center">
+          <SectionHeader
+            headerInfo={{
+              title: ``,
+              subtitle: `Our Patners`,
+              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+            }}
+          />         
+          
+        </div>
+        <div className="relative mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
+          <div className="absolute -bottom-16 -z-1 h-full w-full">
+            <Image
+              fill
+              src="/images/shape/spiral.svg"
+              alt="Dotted"
+              className="dark:hidden"
+            />
+            <Image
+              fill
+              src="/images/shape/spiral.svg"
+              alt="Dotted"
+              className="hidden dark:block"
+            />
+          </div>
+        <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl '>
+          
+          <div className='grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5'>
+
+            {/* COLUMN-1 */}
+
+            <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
+              <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Austarlia</h2>
+
+              <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+              <div className="text-center">
+                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div>
+              <div className='col-span-4 pt-4 pl-20' >
+                <div className='flex gap-4'>
+                  <div className='footer-icons'>
+                    <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                  </div>
+                  <div className='footer-icons'>
+                    <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                  </div>
+                  <div className='footer-icons'>
+                    <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div>
+
+            </div>
+
+            {/* COLUMN-2 */}
+
+            <div className="bg-darkblue bg-beliefs2 pt-12 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
+              <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Newzeland</h2>
+
+              <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+              <div className="text-center">
+                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div>
+              <div className='col-span-4 pt-4 pl-20' >
+                <div className='flex gap-4'>
+                  <div className='footer-icons'>
+                    <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                  </div>
+                  <div className='footer-icons'>
+                    <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                  </div>
+                  <div className='footer-icons'>
+                    <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
       </section>
+      {/* <div className="text-center">
+      <Image src="./images/user/man.svg" alt="comma-image" width={416} height={530} className="mx-auto mb-4 w-32 rounded-lg"/>
+  
+  <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+  <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+</div> */}
+
+
       {/* <!-- ===== Pricing Table End ===== --> */}
     </>
   );
