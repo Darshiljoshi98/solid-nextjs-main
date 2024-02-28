@@ -17,12 +17,12 @@ console.log('call')
 
         await Contact.create(body);
         try{
-        const data = await resend.emails.send({
-            from: 'onboarding@resend.dev',
-            to:'darshil2015@gmail.com',
-            subject: 'Hello world',
-            react: EmailTemplate({ firstName: body.username,phone:body.phone,subject:body.subject,email:body.email }),
-          });
+        // const data = await resend.emails.send({
+        //     from: 'onboarding@resend.dev',
+        //     to:'darshil2015@gmail.com',
+        //     subject: 'Hello world',
+        //     react: EmailTemplate({ firstName: body.username,phone:body.phone,subject:body.subject,email:body.email }),
+        //   });
         }
         catch (e) {
             console.log(e)

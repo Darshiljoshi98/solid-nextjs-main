@@ -4,6 +4,8 @@ import Image from "next/image";
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import Link from "next/link";
+import SingleOffice from "./SingleOffice";
+import countryaData from "./officeData";
 
 
 const Contact = () => {
@@ -12,6 +14,7 @@ const Contact = () => {
    * Reason: To fix rehydration error
    */
   const [hasMounted, setHasMounted] = React.useState(false);
+  const [isDisabled, setisDisabled] = React.useState(false);
   const [status, setStatus] = React.useState<string | null>(null);
 
   const [user, setUser] = React.useState({
@@ -41,6 +44,7 @@ const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
+    setisDisabled(true)
     debugger
     e.preventDefault();
     console.log(user.username)
@@ -73,14 +77,16 @@ const Contact = () => {
         setStatus('success');
         const timeoutId = setTimeout(() => {
           setStatus(null);
-        }, 3000);
+          setisDisabled(false)
+        }, 5000);
         return () => clearTimeout(timeoutId);
       } else {
 
         setStatus('error');
         const timeoutId = setTimeout(() => {
           setStatus(null);
-        }, 3000);
+          setisDisabled(false)
+        }, 5000);
         return () => clearTimeout(timeoutId);
       }
 
@@ -102,7 +108,7 @@ const Contact = () => {
               fill
             />
             <Image
-              src="./images/shape/shape-dotted-dark.svg"
+              src="./images/shape/spiral.svg"
               alt="Dotted"
               className="hidden dark:block"
               fill
@@ -131,6 +137,7 @@ const Contact = () => {
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
               </h2>
+
 
               <form
                 onSubmit={handleSubmit}
@@ -190,9 +197,11 @@ const Contact = () => {
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
                   ></textarea>
                 </div>
+
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
                   <button
                     aria-label="send message"
+                    disabled={isDisabled}
                     className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Send Message
@@ -210,15 +219,23 @@ const Contact = () => {
                       />
                     </svg>
                   </button>
+
                 </div>
                 <div>
-                  {status === 'success' && <p className='success_msg'>Thanks,We will contact you again shortly.</p>}
-                  {status === 'error' && <p className='error_msg'>There was an error submitting your message. Please try again.</p>}
-
+                  {status === 'success' &&
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                      Thanks,We will contact you again shortly
+                    </p>
+                  }
+                  {status === 'error' &&
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                      There was an error submitting your message. Please try again.
+                    </p>
+                  }
                 </div>
               </form>
             </motion.div>
-           
+
             <motion.div
               variants={{
                 hidden: {
@@ -245,14 +262,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>A/40 Janpath society near hirabhai tower</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">darshiljoshi8@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -260,7 +277,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+91 8460364879</a>
                 </p>
               </div>
             </motion.div>
@@ -276,22 +293,14 @@ const Contact = () => {
             }}
           />
           <div id="aboutus-section">
-            <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
-              <Image src="/images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
-              <h3 className='text-center text-blue text-lg tracking-widest'>ABOUT US</h3>
-              <h4 className='text-center text-4xl lg:text-65xl font-bold'>Know more about us.</h4>
-              <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32'>
+            <div className='mx-auto max-w-7xl px-4 py-2 my-2 lg:px-10 bg-lightgrey rounded-3xl relative'>
+              <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-3 xl:mt-5 xl:gap-12.5">
+                {/* <!-- Features item Start --> */}
 
-                <div className='hover:bg-navyblue bg-white rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl group'>
-                  <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>data</h4>
-                  {/* <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" /> */}
-                  <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>dara</h4>
-                  <Link href="#" className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
-
-                    {/* <ChevronRightIcon width={20} height={20} /> */}
-                  </Link>
-                </div>
-
+                {countryaData.map((office, key) => (
+                  <SingleOffice office={office} key={key} />
+                ))}
+                {/* <!-- Features item End --> */}
               </div>
             </div>
           </div>

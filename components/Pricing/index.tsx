@@ -249,8 +249,8 @@ const Pricing = () => {
               subtitle: `Our Patners`,
               description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
             }}
-          />         
-          
+          />
+
         </div>
         <div className="relative mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="absolute -bottom-16 -z-1 h-full w-full">
@@ -267,77 +267,100 @@ const Pricing = () => {
               className="hidden dark:block"
             />
           </div>
-        <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl '>
-          
-          <div className='grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5'>
+          <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl '>
 
-            {/* COLUMN-1 */}
+            <div className='grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5'>
 
-            <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
-              <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Austarlia</h2>
+              {/* COLUMN-1 */}
 
-              <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
-              <div className="text-center">
-                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
-                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
-              </div>
-              <div className='col-span-4 pt-4 pl-20' >
-                <div className='flex gap-4'>
-                  <div className='footer-icons'>
-                    <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
-                  </div>
-                  <div className='footer-icons'>
-                    <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
-                  </div>
-                  <div className='footer-icons'>
-                    <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+
+              <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
+                <div className="text-center">
+                  <span className="inline-flex items-baseline">
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle font-medium  text-white">
+                    Australia
+                    </p>
+                    <Image className="self-center w-15 h-15 " src={'/images/user/aus.svg'} width={30} height={30} alt={""} />
+                  </span>
+                </div>
+
+                {/* <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Austarlia */}
+                {/* <Image src={'/images/user/aus.svg'} alt="facebook" width={45} height={45} /> */}
+                {/* </h2> */}
+
+                <Image src="./images/user/man.svg" alt="man-icon" width={416} height={510} className="mx-auto md:mx-0 pt-15" />
+                <div className="text-center">
+                  <h5 className="mb-2 text-red-100 mt-2 font-medium leading-tight">John Doe</h5>
+
+                  <p className="text-red-100 ">Web designer</p>
+                </div>
+                <div className='col-span-4 pt-4 pl-20' >
+                  <div className='flex gap-4'>
+                    <div className='footer-icons'>
+                      <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="text-center">
+                {/* <div className="text-center">
                 <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
                 <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div> */}
+
               </div>
 
-            </div>
+              {/* COLUMN-2 */}
 
-            {/* COLUMN-2 */}
+              <div className="bg-darkblue bg-beliefs2 pt-10 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
+                <div className="text-center">
 
-            <div className="bg-darkblue bg-beliefs2 pt-12 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
-              <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Newzeland</h2>
+                  <span className="inline-flex items-baseline">
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle font-medium  text-white">
+                    New Zealand
+                    </p>
 
-              <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
-              <div className="text-center">
-                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
-                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
-              </div>
-              <div className='col-span-4 pt-4 pl-20' >
-                <div className='flex gap-4'>
-                  <div className='footer-icons'>
-                    <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
-                  </div>
-                  <div className='footer-icons'>
-                    <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
-                  </div>
-                  <div className='footer-icons'>
-                    <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                    <Image className="self-center w-15 h-15" src={'/images/user/new.svg'} width={30} height={30} alt={""} />
+                  </span>
+                </div>
+                {/* <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Newzeland</h2> */}
+
+                <Image src="./images/user/man.svg" alt="man-icon" width={416} height={510} className="mx-auto md:mx-0 pt-15" />
+                <div className="text-center">
+                  <h5 className="mb-2 mt-2 text-red-100 font-medium leading-tight">John Doe</h5>
+                  <p className="text-red-100">Web designer</p>
+                </div>
+                <div className='col-span-4 pt-4 pl-20' >
+                  <div className='flex gap-4'>
+                    <div className='footer-icons'>
+                      <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                    </div>
+                    <div className='footer-icons'>
+                      <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="text-center">
+                {/* <div className="text-center">
                 <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
                 <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
+              </div> */}
               </div>
+
+
             </div>
-
-
           </div>
         </div>
-      </div>
       </section>
       {/* <div className="text-center">
       <Image src="./images/user/man.svg" alt="comma-image" width={416} height={530} className="mx-auto mb-4 w-32 rounded-lg"/>
-  
+
   <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
   <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
 </div> */}

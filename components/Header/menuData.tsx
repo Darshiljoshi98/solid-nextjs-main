@@ -21,47 +21,11 @@ const menuData: Menu[] = [
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "Contact",  
     newTab: false,
-    path: "/docs",
+    path: "/support",
   },
-  {
-    id: 3,
-    title: "Pages",
-    newTab: false,
-    submenu: [
-      {
-        id: 31,
-        title: "Blog Grid",
-        newTab: false,
-        path: "/blog",
-      },
-      {
-        id: 34,
-        title: "Sign In",
-        newTab: false,
-        path: "/auth/signin",
-      },
-      {
-        id: 35,
-        title: "Sign Up",
-        newTab: false,
-        path: "/auth/signup",
-      },
-      {
-        id: 35,
-        title: "Docs",
-        newTab: false,
-        path: "/docs",
-      },     
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
-      },
-    ],
-  },
+ 
 ];
 
 export default menuData;

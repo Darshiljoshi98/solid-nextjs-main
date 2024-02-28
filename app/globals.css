@@ -160,10 +160,17 @@ pre {
 
 
 .bg-beliefs{
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
+  background-repeat: no-repeat;
+  background-image: url('../public/images/user/aus.svg');
 }
 
 .bg-beliefs2{
-  background-color: black;
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-image: url('../public/images/user/new.svg');
 }
 
+.bg-color{
+  background-color: cornflowerblue;
+}
