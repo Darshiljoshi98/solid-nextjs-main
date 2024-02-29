@@ -10,8 +10,8 @@ const Pricing = () => {
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
       <section className="overflow-hidden pb-20 pt-15 lg:pb-25 xl:pb-30">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
+        {/* <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+ 
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
@@ -21,9 +21,9 @@ const Pricing = () => {
               }}
             />
           </div>
-          {/* <!-- Section Title End --> */}
-        </div>
-
+    
+        </div> */}
+{/* 
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
@@ -34,7 +34,7 @@ const Pricing = () => {
             />
           </div>
           <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
-            {/* <!-- Pricing Item --> */}
+         
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 $10{" "}
@@ -84,8 +84,7 @@ const Pricing = () => {
                 </svg>
               </button>
             </div>
-
-            {/* <!-- Pricing Item --> */}
+ 
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
                 popular
@@ -140,7 +139,6 @@ const Pricing = () => {
               </button>
             </div>
 
-            {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 $189{" "}
@@ -192,28 +190,28 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-
+*/
         <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
               title: ``,
-              subtitle: `Message From Ceo`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              subtitle: `What our CEO says`,
+              description: `.`,
             }}
           />
-        </div>
+        </div> }
 
         <div className="relative">
 
           <Image src="./images/shape/spiral.svg" height={272} width={686} alt="spiral-design" className="absolute left-0 hidden lg:block -z-10" />
 
-          <div className='mx-auto max-w-7xl px-4 my-40 sm:py-20 lg:px-8'>
+          <div className='mx-auto max-w-7xl px-4 my-2 sm:py-20 lg:px-8'>
             <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
               {/* COLUMN-1 */}
               <div>
                 <Image src="./images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
 
-                <div className='col-span-4 pt-4 pl-20' >
+                <div className='col-span-4 pt-4 pl-30' >
                   <div className='flex gap-4'>
                     <div className='footer-icons'>
                       <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>

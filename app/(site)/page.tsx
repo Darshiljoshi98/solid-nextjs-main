@@ -12,6 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Insta from "@/components/Insta";
 
 export const metadata: Metadata = {
   title: "Be Digital",
@@ -23,18 +24,21 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
+      {/* <Brands /> */}      
+      <About/>
       <Feature />
-      <About />
+      {/* <About /> */}
       <FeaturesTab />
-      <FunFact />
+      {/* <FunFact />
       <Integration />
       <CTA />
-      <FAQ />
-      <Testimonial />
+      <FAQ />   */}
       <Pricing />
-      <Contact />
+      <Testimonial />
       <Blog />
+      <Contact />
+      <Insta/>
+     
     </main>
   );
 }

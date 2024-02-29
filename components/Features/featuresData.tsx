@@ -11,21 +11,14 @@ const featuresData: Feature[] = [
   {
     id: 2,
     icon: "/images/icon/icon2.svg",
-    title: "SEO",
+    title: "Search Engine optimization",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 3,
     icon: "/images/icon/icon3.svg",
-    title: "Digital Marketing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-  },
-  {
-    id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Offsho Ractcrs",
+    title: "Whitelable SEO Partners",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   }
