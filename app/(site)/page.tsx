@@ -13,6 +13,7 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Insta from "@/components/Insta";
+import Gallary from "@/components/Gallary";
 
 export const metadata: Metadata = {
   title: "Be Digital",
@@ -35,9 +36,11 @@ export default function Home() {
       <FAQ />   */}
       <Pricing />
       <Testimonial />
+      <Gallary />
       <Blog />
       <Contact />
       <Insta/>
+    
      
     </main>
   );
