@@ -242,7 +242,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="animate_top mx-auto text-center">
+        {/* <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
               title: ``,
@@ -271,7 +271,7 @@ const Pricing = () => {
 
             <div className='grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5'>
 
-              {/* COLUMN-1 */}
+           
 
 
               <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
@@ -284,10 +284,7 @@ const Pricing = () => {
                   </span>
                 </div>
 
-                {/* <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Austarlia */}
-                {/* <Image src={'/images/user/aus.svg'} alt="facebook" width={45} height={45} /> */}
-                {/* </h2> */}
-
+            
                 <Image src="./images/user/man.svg" alt="man-icon" width={416} height={510} className="mx-auto md:mx-0 pt-15" />
                 <div className="text-center">
                   <h5 className="mb-2 text-red-100 mt-2 font-medium leading-tight">John Doe</h5>
@@ -307,14 +304,11 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="text-center">
-                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
-                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
-              </div> */}
+               
 
               </div>
 
-              {/* COLUMN-2 */}
+            
 
               <div className="bg-darkblue bg-beliefs2 pt-10 px-10 sm:px-24 pb-52 md:pb-50 rounded-3xl">
                 <div className="text-center">
@@ -327,7 +321,7 @@ const Pricing = () => {
                     <Image className="self-center w-15 h-15" src={'/images/user/new.svg'} width={30} height={30} alt={""} />
                   </span>
                 </div>
-                {/* <h2 className="text-lg font-normal text-white tracking-widest mb-5 text-center sm:text-start">Mr abc from Newzeland</h2> */}
+              
 
                 <Image src="./images/user/man.svg" alt="man-icon" width={416} height={510} className="mx-auto md:mx-0 pt-15" />
                 <div className="text-center">
@@ -347,16 +341,13 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="text-center">
-                <h5 className="mb-2 text-xl font-medium leading-tight">John Doe</h5>
-                <p className="text-neutral-500 dark:text-neutral-400">Web designer</p>
-              </div> */}
+                
               </div>
 
 
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* <div className="text-center">
       <Image src="./images/user/man.svg" alt="comma-image" width={416} height={530} className="mx-auto mb-4 w-32 rounded-lg"/>
