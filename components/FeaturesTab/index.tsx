@@ -69,11 +69,7 @@ const FeaturesTab = () => {
                   : ""
                 }`}
             >
-                 <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  02
-                </p>
-              </div>
+                
               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   01

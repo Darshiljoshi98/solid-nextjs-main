@@ -11,7 +11,7 @@ const Insta = () => {
   const [message, setMessage] = useState(false);
  
   useEffect(() => {
-    senddata();
+    // senddata();
 }, [])
  
   const senddata = async () => {

@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
 
-const MONGODB_URL = 'mongodb+srv://darshilADMIN:ekfkjqNEUZvuUifA@learndemo.tbgruvu.mongodb.net/nextjs'
+// const MONGODB_URL = 'mongodb+srv://darshilADMIN:ekfkjqNEUZvuUifA@learndemo.tbgruvu.mongodb.net/nextjs'
+const MONGODB_URL='mongodb+srv://darshil2015:e96nVB9g8eMATAMv@cluster0.yi5y6i5.mongodb.net/work'
 
 if (!MONGODB_URL) {
     throw new Error(
