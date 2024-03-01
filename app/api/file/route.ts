@@ -6,6 +6,7 @@ export async function GET() {
 
   const headers = new Headers();
   headers.append('Content-Disposition', 'attachment; filename="dummy.pdf"');
+  headers.append('Content-Type', 'application/pdf');
 
 
   return new Response(buffer, {
