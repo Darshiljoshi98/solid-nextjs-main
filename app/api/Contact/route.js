@@ -7,8 +7,6 @@ const resend = new Resend('re_eEhY7Qvh_28Wbe94KXoVEfzQV4m785aus');
 
 export async function POST(req, res) {
 console.log('call')
-
-
     try {    
 
         const body = await req.json();

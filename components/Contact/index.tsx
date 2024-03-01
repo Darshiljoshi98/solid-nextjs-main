@@ -65,6 +65,22 @@ const Contact = () => {
       })
       // Set the status based on the response from the API route
       if (response.status === 200) {
+        try{
+          const response = await fetch('/api/Mail', {
+            method: 'POST',
+            headers: { "Content_Type": "application/json" },
+            body: JSON.stringify({
+              username: user.username,
+              email: user.email,
+              phone: user.phone,
+              subject: user.subject,
+              message: user.message
+            })
+          })
+        }
+        catch  (e) {
+          console.log(e)
+        }
         setUser({
           username: "",
           email: "",
