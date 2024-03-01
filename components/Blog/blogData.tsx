@@ -3,14 +3,14 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/blog-01.png",
+    mainImage: "/images/blog/blog-01.svg",
     title: "Free advertising for your online business",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
   {
     _id: 2,
-    mainImage: "/images/blog/blog-02.png",
+    mainImage: "/images/blog/blog-02.svg",
     title: "9 simple ways to improve your design skills",
     metadata:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
