@@ -10,7 +10,7 @@ const About = () => {
       {/* <!-- ===== About Start ===== --> */}
       <section className="overflow-hidden pb-2 lg:pb-5 xl:pb-5 ">
           <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
-            <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+            {/* <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/spiral.svg"
               alt="Dotted"
@@ -23,7 +23,7 @@ const About = () => {
               className="hidden dark:block"
               fill
             />
-          </div>
+          </div> */}
           <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
 
             <div className="animate_top mx-auto text-center">
@@ -58,13 +58,13 @@ const About = () => {
                 className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
               >
                 <Image
-                  src="/images/logo/3.svg"
+                  src="/images/logo/1.svg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="/images/logo/3.svg"
+                  src="/images/logo/1.svg"
                   alt="About"
                   className="hidden dark:block"
                   fill

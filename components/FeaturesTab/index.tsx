@@ -28,7 +28,7 @@ const FeaturesTab = () => {
           {/* <!-- Section Title End --> */}
         </div>
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
+          {/* <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image
               fill
               className="dark:hidden"
@@ -41,7 +41,7 @@ const FeaturesTab = () => {
               src="/images/shape/spiral.svg"
               alt="Dotted Shape"
             />
-          </div>
+          </div> */}
 
           {/* <!-- Tab Menues Start --> */}
           <motion.div
@@ -69,6 +69,11 @@ const FeaturesTab = () => {
                   : ""
                 }`}
             >
+                 <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                <p className="text-metatitle3 font-medium text-black dark:text-white">
+                  02
+                </p>
+              </div>
               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   01

@@ -19,16 +19,7 @@ const countryaData: OfficeData[] = [
       phone: '123456789',
       email: 'test@gmail.com'
       
-  },
-  {
-    id: 3,
-    icon: "/images/user/new.svg",
-    title: "New Zealand",
-    location:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
-      phone: '123456789',
-      email: 'test@gmail.com'
-  },
+  }
  
 ];
 

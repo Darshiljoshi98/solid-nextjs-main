@@ -100,7 +100,7 @@ const Contact = () => {
       <section id="support" className="px-4 md:px-8 2xl:px-0">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
-          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+          {/* <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/spiral.svg"
               alt="Dotted"
@@ -113,7 +113,7 @@ const Contact = () => {
               className="hidden dark:block"
               fill
             />
-          </div>
+          </div> */}
 
           <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
             <motion.div
@@ -294,7 +294,7 @@ const Contact = () => {
           />
           <div id="aboutus-section">
             <div className='mx-auto max-w-7xl px-4 py-2 my-2 lg:px-10 bg-lightgrey rounded-3xl relative'>
-              <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-3 xl:mt-5 xl:gap-12.5">
+              <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-5 lg:grid-cols-2 xl:mt-5 xl:gap-12.5">
                 {/* <!-- Features item Start --> */}
 
                 {countryaData.map((office, key) => (
