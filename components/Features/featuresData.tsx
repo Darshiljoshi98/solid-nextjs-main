@@ -7,6 +7,7 @@ const featuresData: Feature[] = [
     title: "Website Devlopment",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const featuresData: Feature[] = [
     title: "Search Engine optimization",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+   
   },
   {
     id: 3,
@@ -21,6 +23,15 @@ const featuresData: Feature[] = [
     title: "Whitelable SEO Partners",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+   
+  },
+  {
+    id: 4,
+    icon: "/images/icon/icon3.svg",
+    title: "Google My Business Seo",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+
   }
 ];
 
