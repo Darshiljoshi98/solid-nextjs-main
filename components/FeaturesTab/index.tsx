@@ -135,6 +135,7 @@ const FeaturesTab = () => {
         </div>
       </section>
       {/* <!-- ===== Features Tab End ===== --> */}
+    
     </>
   );
 };

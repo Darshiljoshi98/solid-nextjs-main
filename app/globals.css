@@ -180,3 +180,10 @@ pre {
   line-height: 33x;
   font-size: 15px;
 }
+
+.stats{
+  --tw-bg-opacity: 1;
+  background-color:cornflowerblue;
+  padding: 1rem;
+  color: azure;
+}
