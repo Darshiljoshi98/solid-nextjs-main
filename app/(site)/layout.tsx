@@ -30,8 +30,8 @@ export default function RootLayout({
           <ToasterContext />
           {children}
           <TawkMessengerReact
-            propertyId="65cdec859131ed19d96d0beb"
-            widgetId="1hmm67qk5" />         
+            propertyId="65e14b658d261e1b5f671de8"
+            widgetId="1hns0t1mp" />         
           
           <Footer />
           <ScrollToTop />
