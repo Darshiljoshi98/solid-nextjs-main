@@ -12,8 +12,8 @@ const countryaData: OfficeData[] = [
   },
   {
     id: 2,
-    icon: "/images/user/aus.svg",
-    title: "Australia",
+    icon: "/images/user/usa.svg",
+    title: "USA",
     location:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
       phone: '123456789',

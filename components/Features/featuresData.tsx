@@ -27,7 +27,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    icon: "/images/icon/icon3.svg",
+    icon: "/images/icon/google.svg",
     title: "Google My Business Seo",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",

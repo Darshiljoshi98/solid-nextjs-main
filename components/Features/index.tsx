@@ -23,51 +23,43 @@ const Feature = () => {
           {/* <!-- Section Title End --> */}
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 my-20">
-            <div className="col-span-1 text-black">
+            <div className="col-span-1 text-black mt-25">
               <div className=" grid gap-8 grid-flow-row">
 
                 <div className="stats aos-init aos-animate " >
                   <b>
-                    34+
+                    400+ P/M
                   </b>
                   <p>
-                    happy client
+                    Serving Keyword
                   </p>
 
                 </div>
                 <div className="stats aos-init aos-animate " >
                   <b>
-                    79+
+                    80%
                   </b>
                   <p>
-                   sucessfull project
+                    Keyword In Top 10
                   </p>
 
                 </div>
                 <div className="stats aos-init aos-animate " >
                   <b>
-                    9+
+                    54+
                   </b>
                   <p>
-               Expertise
+                    Happy Client
                   </p>
 
                 </div>
-                <div className="stats aos-init aos-animate " >
-                  <b>
-                    34+
-                  </b>
-                  <p>
-                    happy client
-                  </p>
 
-                </div>
                 <div className="stats aos-init aos-animate " >
                   <b>
-                   6+
+                    10+
                   </b>
                   <p>
-                   indursty serve
+                    indursty Expertise
                   </p>
 
                 </div>
@@ -77,14 +69,14 @@ const Feature = () => {
             <div className="col-span-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-2 xl:mt-20 xl:gap-12.5"> */}
-                  {/* <!-- Features item Start --> */}
+                {/* <!-- Features item Start --> */}
 
-                  {featuresData.map((feature, key) => (
-                    <SingleFeature feature={feature} key={key} />
-                  ))}
-                  {/* <!-- Features item End --> */}
-                </div>
+                {featuresData.map((feature, key) => (
+                  <SingleFeature feature={feature} key={key} />
+                ))}
+                {/* <!-- Features item End --> */}
               </div>
+            </div>
             {/* </div> */}
 
           </div>
