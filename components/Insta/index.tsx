@@ -49,7 +49,7 @@ const Insta = () => {
       </div>
 
       {/* <!-- ===== About Start ===== --> */}
-      {message ?      <button >ssss</button> : <h1>data get</h1> }
+      {message ?      <button >ssss</button> : <h1>data getddd</h1> }
 
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30 mt-15">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
