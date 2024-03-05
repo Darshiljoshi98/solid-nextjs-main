@@ -209,7 +209,7 @@ const Pricing = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
               {/* COLUMN-1 */}
               <div>
-                <Image src="/images/user/ceo2.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+                <Image src="/images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
 
                 <div className='col-span-4 pt-4 pl-20 md:pl-22 sm:pl-60' >
                   <div className='flex gap-4'>
