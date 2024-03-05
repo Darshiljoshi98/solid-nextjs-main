@@ -187,3 +187,7 @@ pre {
   padding: 1rem;
   color: azure;
 }
+
+.radius{
+  border-radius: 130px;
+}
