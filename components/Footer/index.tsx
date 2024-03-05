@@ -11,11 +11,11 @@ const Footer = () => {
         <div
           className="flex items-center justify-center border-b-4 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
           <div className="mr-12 hidden lg:block">
-          <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle font-medium  text-white">
-          Get connected with us on social networks
+            <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+              Get connected with us on social networks
             </p>
 
-            
+
           </div>
 
           <div className="flex justify-center">
@@ -94,14 +94,22 @@ const Footer = () => {
                   className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 
                   <Image
-                    width={119}
-                    height={80}
                     src="/images/logo/4.svg"
-                    alt="Logo"
-                    className="dark:hidden w-80 h-"
+                    alt="logo"
+                    width={75}
+                    height={30}
+                    className="hidden w-full dark:block  w-10 h-10"
                   />
-               
-           
+                  <Image
+                    src="/images/logo/4.svg"
+                    alt="logo"
+                    width={75}
+                    height={30}
+                    className="w-full dark:hidden  w-10 h-10"
+
+                  />
+
+
                 </h6>
                 <p>
                   Here you can use rows and columns to organize your footer

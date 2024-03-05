@@ -18,7 +18,7 @@ const Gallary = () => {
                     }}
                 />
             </div>
-            <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30 ">
+            <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-20 ">
                 <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
                     <div className="flex items-center  lg:gap-32.5">
 

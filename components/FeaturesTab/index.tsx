@@ -18,8 +18,8 @@ const FeaturesTab = () => {
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
-              headerInfo={{
-                title: `Whom we Serve`,
+              headerInfo={{ 
+                title:'',            
                 subtitle: `Whom we Serve`,
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
               }}

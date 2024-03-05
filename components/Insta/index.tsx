@@ -14,22 +14,23 @@ const Insta = () => {
     // senddata();
 }, [])
  
-  const senddata = async () => {
-    
-debugger
+  const senddata = async () => {        
     try {
       fetch(`/api/insta`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
+    
         if(data.message == 'Server error, please try again!'){
           console.log("505")
           setMessage(true)
-        }
-      
-      })
+        }   
+        else{
+          
+          console.log(JSON.parse(data.data))
 
-   
+
+        }  
+      })   
 
     } catch (e) {
       console.log(e)
@@ -37,7 +38,7 @@ debugger
   }
   return (
     <>
-      <div className="animate_top mx-auto text-center">
+      <div className="animate_top mx-auto text-center mt-20">
         <SectionHeader
           headerInfo={{
             title: ``,

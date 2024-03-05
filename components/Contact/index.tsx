@@ -29,7 +29,7 @@ const Contact = () => {
 
 
   function handleChange(e) {
-    debugger
+    
     const name = e.target.name;
     const value = e.target.value;
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     setisDisabled(true)
-    debugger
+    
     e.preventDefault();
     console.log(user.username)
     console.log(user.email)
@@ -239,12 +239,12 @@ const Contact = () => {
                 </div>
                 <div>
                   {status === 'success' &&
-                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
                       Thanks,We will contact you again shortly
                     </p>
                   }
                   {status === 'error' &&
-                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
                       There was an error submitting your message. Please try again.
                     </p>
                   }
@@ -299,7 +299,7 @@ const Contact = () => {
             </motion.div>
           </div>
         </div>
-        <div>
+        <div  className="mt-20"> 
           <SectionHeader
             headerInfo={{
               title: "",

@@ -61,7 +61,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
 
       <p>{content}</p>
       <button onClick={handleClick}>
-        <div className="absolute   rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+        <div className="absolute   rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
 
           Download our Portfolio
 

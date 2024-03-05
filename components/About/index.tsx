@@ -28,8 +28,8 @@ const About = () => {
 
             <div className="animate_top mx-auto text-center">
               <SectionHeader
-                headerInfo={{
-                  title: `About US`,
+                headerInfo={{     
+                  title:'',         
                   subtitle: `About US`,
                   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
                 }}
@@ -58,13 +58,13 @@ const About = () => {
                 className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
               >
                 <Image
-                  src="/images/logo/1.svg"
+                  src="/images/logo/3.svg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="/images/logo/1.svg"
+                  src="/images/logo/3.svg"
                   alt="About"
                   className="hidden dark:block"
                   fill
@@ -89,7 +89,7 @@ const About = () => {
                 className="animate_right md:w-1/2"
               >
                 <span className="font-medium uppercase text-black dark:text-white">
-                  <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
+                  <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle2 uppercase text-white ">
                     New
                   </span>{" "}
                   Who we are
@@ -121,7 +121,7 @@ const About = () => {
               <div>
                 <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                   <div className="text-center">
-                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle font-medium  text-white">
+                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                       Story of BeDigital
                     </p>
                     <p>
@@ -132,7 +132,7 @@ const About = () => {
               </div>
               <div>   <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                 <div className="text-center">
-                  <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle font-medium  text-white">
+                  <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                     Vision  of BeDigital
                   </p>
                   <p>

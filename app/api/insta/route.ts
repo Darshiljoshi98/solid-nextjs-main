@@ -16,7 +16,7 @@ export async function GET(req, res) {
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: 'http://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,timestamp,children{media_url}&limit=50&access_token=IGQWRNRlRYUWtOcnNsRXEyczRocHppaWtPVVktWGNKb3l2V1BuTl9QeWZAXa3ZA2WkVTckRlVW13X05yYjVkRlpwS0RfLWFZAc2xwTTViYWEzUnFNLTlrQ2xIdHBJNlA1cERic3Jmd2ZA1MmRmeHQ2bHhtRUZAUeVJGdjgZD',
+            url: 'http://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,timestamp,children{media_url}&limit=1&access_token=IGQWRNRlRYUWtOcnNsRXEyczRocHppaWtPVVktWGNKb3l2V1BuTl9QeWZAXa3ZA2WkVTckRlVW13X05yYjVkRlpwS0RfLWFZAc2xwTTViYWEzUnFNLTlrQ2xIdHBJNlA1cERic3Jmd2ZA1MmRmeHQ2bHhtRUZAUeVJGdjgZD',
         };
 
         let response = await axios.request(config);
@@ -24,7 +24,7 @@ export async function GET(req, res) {
 
 
     
-        console.log(response)
+        // console.log(response)
         if(response.data == undefined){
             return NextResponse.json(
                 { message: "Server error, please try again!" },

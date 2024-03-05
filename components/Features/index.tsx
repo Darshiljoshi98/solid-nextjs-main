@@ -12,8 +12,8 @@ const Feature = () => {
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
-            headerInfo={{
-              title: "What We DO",
+            headerInfo={{        
+              title:'',      
               subtitle: "Our Expertise",
               description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
@@ -50,6 +50,16 @@ const Feature = () => {
                   </b>
                   <p>
                     Happy Client
+                  </p>
+
+                </div>
+                
+                <div className="stats aos-init aos-animate " >
+                  <b>
+                    99%
+                  </b>
+                  <p>
+                    Client Sucess Rate
                   </p>
 
                 </div>

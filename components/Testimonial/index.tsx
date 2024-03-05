@@ -19,8 +19,8 @@ const Testimonial = () => {
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
-              headerInfo={{
-                title: `TESTIMONIALS`,
+              headerInfo={{   
+                title:'',        
                 subtitle: `Client’s Testimonials`,
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
               }}
