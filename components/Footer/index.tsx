@@ -90,6 +90,7 @@ const Footer = () => {
             <div className="grid-1 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
               <div className="">
+                <a href="/">
                 <h6
                   className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 
@@ -111,6 +112,7 @@ const Footer = () => {
 
 
                 </h6>
+                </a>
                 <p>
                   Here you can use rows and columns to organize your footer
                   content. Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -223,6 +225,7 @@ const Footer = () => {
 
 
               </div>
+  
             </div>
           </div>
         </div>

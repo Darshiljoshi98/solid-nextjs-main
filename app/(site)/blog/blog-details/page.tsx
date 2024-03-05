@@ -6,6 +6,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Blog Details Page",
   description: "This is Blog details page ",
+  icons:"/images/logo/data.svg"
   // other metadata
 };
 

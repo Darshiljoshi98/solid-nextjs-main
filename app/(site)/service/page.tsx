@@ -6,6 +6,7 @@ import Feature from "@/components/Features";
 export const metadata: Metadata = {
   title: "Feture Page ",
   description: "This is Feture page ",
+  icons:"/images/logo/data.svg"
   // other metadata
 };
 

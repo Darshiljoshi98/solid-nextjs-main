@@ -5,6 +5,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Support Page ",
   description: "This is Support page ",
+  icons:"/images/logo/data.svg"
   // other metadata
 };
 

@@ -5,8 +5,9 @@ import Pricing from "@/components/Pricing";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "CeoPage - Be Digital",
+  title: "Testimonial Page - Be Digital",
   description: "This is Ceo page",
+  icons:"/images/logo/data.svg"
   // other metadata
 };
 
