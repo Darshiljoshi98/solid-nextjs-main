@@ -123,16 +123,16 @@ const Footer = () => {
                   Services
                 </h6>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Search Engine optimization</a>
+                  <a href="/service" className="text-neutral-600 dark:text-neutral-200">Search Engine optimization</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Website Redesign & Development </a>
+                  <a href="/service" className="text-neutral-600 dark:text-neutral-200">Website Redesign & Development </a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Whitelable SEO Partners </a>
+                  <a href="/service" className="text-neutral-600 dark:text-neutral-200">Whitelable SEO Partners </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Google My Business Seo</a>
+                  <a href="/service" className="text-neutral-600 dark:text-neutral-200">Google My Business Seo</a>
                 </p>
               </div>
 
@@ -142,16 +142,16 @@ const Footer = () => {
                   Useful links
                 </h6>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">About US</a>
+                  <a href="/about" className="text-neutral-600 dark:text-neutral-200">About US</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Know Our CEO</a>
+                  <a href="/ceo" className="text-neutral-600 dark:text-neutral-200">Know Our CEO</a>
                 </p>
                 <p className="mb-4">
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Blog</a>
+                  <a href="/blog" className="text-neutral-600 dark:text-neutral-200">Blog</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-neutral-600 dark:text-neutral-200">Client’s Testimonials</a>
+                  <a href="/testimonial" className="text-neutral-600 dark:text-neutral-200">Client’s Testimonials</a>
                 </p>
               </div>
 

@@ -18,7 +18,7 @@ import Lines from "@/components/Lines";
 
 export const metadata: Metadata = {
   title: "Be Digital",
-  description: "This is Home for Sep Pro",
+  description: "This is Home for Seo ",
   // other metadata
 };
 

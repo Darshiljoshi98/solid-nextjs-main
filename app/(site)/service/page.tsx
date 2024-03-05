@@ -1,19 +1,20 @@
 import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
+import Feature from "@/components/Features";
 
 export const metadata: Metadata = {
-  title: "Support Page ",
-  description: "This is Support page ",
+  title: "Feture Page ",
+  description: "This is Feture page ",
   // other metadata
 };
 
-const SupportPage = () => {
+const Services = () => {
   return (
     <div className="pb-20 pt-40">
-      <Contact />
+      <Feature />
     </div>
   );
 };
 
-export default SupportPage;
+export default Services;
