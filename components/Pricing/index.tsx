@@ -209,7 +209,7 @@ const Pricing = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
               {/* COLUMN-1 */}
               <div>
-                <Image src="/images/user/man.svg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+                <Image src="/images/user/ceo2.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
 
                 <div className='col-span-4 pt-4 pl-20 md:pl-22 sm:pl-60' >
                   <div className='flex gap-4'>
@@ -231,8 +231,8 @@ const Pricing = () => {
               <div className="relative">
                 <Image src="./images/user/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
                 <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Dedicated to help peoples design needs.</h2>
-                <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis</p>
-                <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start">Darshil Joshi, CEO </p>
+                <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start text-wrap">Welcome to Be Digital, where we redefine the boundaries of digital visibility and search engine optimization. In today's digital era, the significance of a robust online presence cannot be overstated. As the CEO of Be Digital, my mission is not just to lead our company into the forefront of the SEO industry but to ensure we are instrumental in transforming the digital landscapes of our clients.</p>
+                <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start">Zarna Joshi, CEO </p>
 
               </div>
 

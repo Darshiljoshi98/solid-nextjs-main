@@ -21,7 +21,8 @@ const FeaturesTab = () => {
               headerInfo={{ 
                 title:'',            
                 subtitle: `Whom we Serve`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `With decades of experience and expertise, we are highly confident to guide a variety of
+                businesses through digital shifts, economic shifts, and more.`,
               }}
             />
           </div>
@@ -60,7 +61,7 @@ const FeaturesTab = () => {
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top mb-15 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-21.5 xl:gap-12.5"
+            className="animate_top mb-15 mt-15 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-21.5 xl:gap-12.5"
           >
             <div
               onClick={() => setCurrentTab("tabOne")}

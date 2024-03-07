@@ -3,8 +3,14 @@ import React from "react";
 import featuresData from "./featuresData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
+import { useRouter } from "next/navigation";
 
 const Feature = () => {
+  const router = useRouter();
+  const movepage = async () => {
+
+    router.push('/support')
+  }
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
@@ -15,9 +21,8 @@ const Feature = () => {
             headerInfo={{        
               title:'',      
               subtitle: "Our Expertise",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              description: `Our experts craft a tailored strategy just for you, packed with smart keyword choices. We dig
+              deep into past trends and future projections to ensure your site shines across the globe..`,
             }}
           />
           {/* <!-- Section Title End --> */}
@@ -74,10 +79,21 @@ const Feature = () => {
 
                 </div>
               </div>
+
+        
+        <button className="absolute   mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white" onClick={movepage}>
+
+        Inquiry now
+
+        </button>
+
             </div>
 
+
+
             <div className="col-span-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
+             
                 {/* <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-2 xl:mt-20 xl:gap-12.5"> */}
                 {/* <!-- Features item Start --> */}
 
