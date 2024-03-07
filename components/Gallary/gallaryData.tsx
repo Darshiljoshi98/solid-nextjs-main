@@ -5,7 +5,7 @@ const gallaryData: Gallary[] = [
   {
     link: "add link here",
     image:
-      "/images/brand/brand-07.svg",
+      "images/brand/brand-07.svg",
     comment: `certificate 1   </b>`,
   },
   {
