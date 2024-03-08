@@ -38,11 +38,11 @@ export default function Home() {
       <CTA />
       <FAQ />   */}
       <Pricing />
-      <Testimonial />
-      <Gallary />
-      <Blog />
+      {/* <Testimonial /> */}
+      {/* <Gallary /> */}
+      {/* <Blog /> */}
       <Contact />
-      <Insta/>
+      {/* <Insta/> */}
     
      
     </main>

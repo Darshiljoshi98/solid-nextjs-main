@@ -285,7 +285,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">darshiljoshi8@gmail.com</a>
+                  <a href="#">zarnamehtait@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -293,7 +293,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+91 8460364879</a>
+                  <a href="#">+91 7874074605</a>
                 </p>
                 
               </div>
