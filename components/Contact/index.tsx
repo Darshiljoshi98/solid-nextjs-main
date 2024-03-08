@@ -150,7 +150,7 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
-              <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="text-center mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
               </h2>
 
@@ -218,7 +218,7 @@ const Contact = () => {
                   <button
                     aria-label="send message"
                     disabled={isDisabled}
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    className="text-center inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Send Message
                     <svg
@@ -239,12 +239,12 @@ const Contact = () => {
                 </div>
                 <div>
                   {status === 'success' &&
-                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
+                    <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
                       Thanks,We will contact you again shortly
                     </p>
                   }
                   {status === 'error' &&
-                    <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
+                    <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
                       There was an error submitting your message. Please try again.
                     </p>
                   }
@@ -270,35 +270,35 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
-              <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="text-center mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Find us
               </h2>
 
               <div className="5 mb-7">
-                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                <h3 className="text-center mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>A/40 Janpath society near hirabhai tower</p>
+                <p className="text-center">A/40 Janpath society near hirabhai tower</p>
               </div>
               <div className="5 mb-7">
-                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                <h3 className=" text-center mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
-                <p>
+                <p className="text-center">
                   <a href="#">zarnamehtait@gmail.com</a>
                 </p>
               </div>
               <div>
-                <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                <h4 className="text-center mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
-                <p>
+                <p className="text-center">
                   <a href="#">+91 7874074605</a>
                 </p>
                 
               </div>
               <div>
-                <h4 className="mt-4 mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                <h4 className="text-center mt-4 mb-4 text-metatitle3 font-medium text-black dark:text-white">
                Map
                 </h4>
                 <p>                 

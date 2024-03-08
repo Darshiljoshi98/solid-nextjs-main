@@ -31,7 +31,7 @@ const Feature = () => {
             <div className="col-span-1 text-black mt-25">
               <div className=" grid gap-8 grid-flow-row">
 
-                <div className="stats aos-init aos-animate " >
+                <div className="stats aos-init aos-animate text-center" >
                   <b>
                     400+ P/M
                   </b>
@@ -40,7 +40,7 @@ const Feature = () => {
                   </p>
 
                 </div>
-                <div className="stats aos-init aos-animate " >
+                <div className="stats aos-init aos-animate text-center" >
                   <b>
                     80%
                   </b>
@@ -49,7 +49,7 @@ const Feature = () => {
                   </p>
 
                 </div>
-                <div className="stats aos-init aos-animate " >
+                <div className="stats aos-init aos-animate text-center" >
                   <b>
                     54+
                   </b>
@@ -59,7 +59,7 @@ const Feature = () => {
 
                 </div>
                 
-                <div className="stats aos-init aos-animate " >
+                <div className="stats aos-init aos-animate text-center" >
                   <b>
                     99%
                   </b>
@@ -69,7 +69,7 @@ const Feature = () => {
 
                 </div>
 
-                <div className="stats aos-init aos-animate " >
+                <div className="stats aos-init aos-animate text-center" >
                   <b>
                     10+
                   </b>
@@ -81,7 +81,7 @@ const Feature = () => {
               </div>
 
         
-        <button className="absolute   mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white" onClick={movepage}>
+        <button className="absolute   text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white" onClick={movepage}>
 
         Inquiry now
 

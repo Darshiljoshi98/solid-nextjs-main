@@ -38,8 +38,8 @@ const About = () => {
 
           </div>
           <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0 pt-6">
-            <div className="flex items-center gap-8 lg:gap-32.5">
-              <motion.div
+            <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
+              <div>      <motion.div
                 variants={{
                   hidden: {
                     opacity: 0,
@@ -55,63 +55,73 @@ const About = () => {
                 whileInView="visible"
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+                className="animate_left relative mx-auto  aspect-[588/526.5] "
               >
                 <Image
-                  src="/images/logo/3.svg"
+                  src="/images/logo/342.svg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="/images/logo/3.svg"
+                  src="/images/logo/342.svg"
                   alt="About"
                   className="hidden dark:block"
                   fill
                 />
-              </motion.div>
-              <motion.div
-                variants={{
-                  hidden: {
-                    opacity: 0,
-                    x: 20,
-                  },
+              </motion.div></div>
+              <div>
 
-                  visible: {
-                    opacity: 1,
-                    x: 0,
-                  },
-                }}
-                initial="hidden"
-                whileInView="visible"
-                transition={{ duration: 0.5, delay: 0.1 }}
-                viewport={{ once: true }}
-                className="animate_right md:w-1/2"
-              >
-                {/* <span className="font-medium uppercase text-black dark:text-white">
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      x: 20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      x: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_right pt-10 md:pl-20 md:pt-25"
+                >
+                  {/* <span className="font-medium uppercase text-black dark:text-white">
                   <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle2 uppercase text-white ">
                     New
                   </span>{" "}
                   Who we are
                 </span> */}
-                <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                  A Complete Solution for
-                  <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                    SEO
-                  </span>
-                </h2>
-                <p>
-                  Welcome to Be Digital, a women-owned SEO agency dedicated to providing exceptional SEO
-                  services for individuals and digital business owners worldwide. We're here to help you attract
-                  more qualified traffic to your website, focusing on the search terms that are crucial for your
-                  business success. By optimizing every aspect that affects search engine rankings, we ensure
-                  measurable results. Trust our proven expertise to enhance your online visibility and set your
-                  business on the path to long-term success.
-                </p>
+
+                  <h2 className="text-center relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+                    A Complete Solution for
+                    <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+                      SEO
+                    </span>
+                  </h2>
+                  <p className="text-center">
+                    Welcome to Be Digital, a women-owned SEO agency dedicated to providing exceptional SEO
+                    services for individuals and digital business owners worldwide. We're here to help you attract
+                    more qualified traffic to your website, focusing on the search terms that are crucial for your
+                    business success. By optimizing every aspect that affects search engine rankings, we ensure
+                    measurable results. Trust our proven expertise to enhance your online visibility and set your
+                    business on the path to long-term success.
+                  </p>
 
 
 
-              </motion.div>
+                </motion.div>
+              </div>
+
+
+              {/* <div className="flex items-center gap-8 lg:gap-32.5">
+
+
+              </div> */}
             </div>
           </div>
         </div>
@@ -128,7 +138,7 @@ const About = () => {
                     <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                       Story of Be Digital
                     </p>
-                    <p className="pr-10"> 
+                    <p className="pr-10">
                       Introducing Be Digital, founded by a passionate B-Tech graduate with six years of professional
                       background in SEO, web development, and digital marketing. With her deep understanding of
                       technology and a keen eye for digital trends, she recognized the immense potential of helping

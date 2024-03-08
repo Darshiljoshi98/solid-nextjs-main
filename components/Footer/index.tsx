@@ -11,7 +11,7 @@ const Footer = () => {
         <div
           className="flex items-center justify-center border-b-4 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
           <div className="mr-12 hidden lg:block">
-            <p className="mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
               Get connected with us on social networks
             </p>
 
@@ -121,7 +121,7 @@ const Footer = () => {
               </div>
               < div className="">
                 <h6
-                  className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+                  className=" text-center mb-4 flex justify-center font-semibold uppercase md:justify-start">
                   Services
                 </h6>
                 <p className="mb-4">

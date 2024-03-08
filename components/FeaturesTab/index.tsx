@@ -13,7 +13,7 @@ const FeaturesTab = () => {
   return (
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
-      <section className="relative pb-20 pt-18.5 lg:pb-22.5">
+      <section className="relative pb-20 pt-18.5 lg:pb-15">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
@@ -77,7 +77,7 @@ const FeaturesTab = () => {
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
-                <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                <button className="text-center text-sm font-medium text-black dark:text-white xl:text-regular">
                   Digital Agencies or Website Development companies
                 </button>
               </div>
@@ -95,7 +95,7 @@ const FeaturesTab = () => {
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
-                <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                <button className="text-center text-sm font-medium text-black dark:text-white xl:text-regular">
                   Individual local or national business
                 </button>
               </div>

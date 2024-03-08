@@ -12,19 +12,19 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      {/* <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
+              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white ">
                 🔥 Be Digital  - Patner of Your Growth
               </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white  ">
-              Unlock the power of your online presence and watch your revenue soar with our top-tier SEO services! {"   "}
+              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white  text-center">
+                Unlock the power of your online presence and watch your revenue soar with our top-tier SEO services! {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   Click Below Button
                 </span>
-              </h1> 
+              </h1>
 
 
               <div className="mt-10">
@@ -76,6 +76,79 @@ const Hero = () => {
                   />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
+            {/* COLUMN-1 */}
+            <div>
+            <div className="w-11/12">
+              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white text-center">
+                🔥 Be Digital  - Patner of Your Growth
+              </h4>
+              <h1 className="mb-5  text-3xl font-bold text-black dark:text-white  text-center">
+                Unlock the power of your online presence and watch your revenue soar with our top-tier SEO services! {"   "}
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                  Click Below Button
+                </span>
+              </h1>
+
+
+              <div className="mt-10">
+                <Link
+                  aria-label="get started button"
+                  className="flex rounded-full bg-primary  px-7.5 py-2.5 text-white" href={`/#features`}                    >
+                  Get Started
+                </Link>
+              </div>
+            </div>
+            </div>
+
+            {/* COLUMN-2 */}
+            <div className="relative">
+            <div className="">
+                <Image
+                  src="/images/shape/shape-01.png"
+                  alt="shape"
+                  width={46}
+                  height={246}
+                  className="absolute  top-0"
+                />
+                <Image
+                  src="/images/shape/shape-02.svg"
+                  alt="shape"
+                  width={36.9}
+                  height={36.7}
+                  className="absolute bottom-0 right-0 z-10"
+                />
+                <Image
+                  src="/images/shape/shape-03.svg"
+                  alt="shape"
+                  width={21.64}
+                  height={21.66}
+                  className="absolute  bottom-0 z-1"
+                />
+                <div className=" relative aspect-[700/444] w-full pt-15 md:pt-0">
+                  <Image
+                    className="shadow-solid-l dark:hidden md:ml-15  radius   overflow-hidden"
+                    width={600} height={700}
+                    src="/images/hero/banner.jpg"
+                    alt="Hero"
+
+                  />
+                  <Image
+                    className="hidden shadow-solid-l dark:block ml-10  pt-10 radius  overflow-hidden"
+                    src="/images/hero/banner.jpg"
+                    alt="Hero"
+                    width={600} height={700}
+
+                  />
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
