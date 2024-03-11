@@ -172,7 +172,9 @@ pre {
 }
 
 .bg-color{
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  background-color: #15803d;
+  color: azure;
 }
 
 
@@ -183,11 +185,33 @@ pre {
 
 .stats{
   --tw-bg-opacity: 1;
-  background-color:cornflowerblue;
+  background-color:#15803d;
   padding: 1rem;
   color: azure;
 }
 
 .radius{
   border-radius: 130px;
+}
+
+
+
+
+.childData {
+text-align: center;
+  /* Center horizontally*/
+  margin: 25px auto;
+}
+
+.subtitleTextColor{
+  color: #245127;
+}
+
+
+
+
+
+
+.DescriptionTextColor{
+  color: #9c5637;
 }

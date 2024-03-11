@@ -35,7 +35,7 @@ const SingleOffice = ({ office }: { office: OfficeData }) => {
         <div className="text-center">
           <div className="inline-flex items-baseline">
           <Image className="self-center w-15 h-15" src={'/images/icon/location.svg'} width={15} height={15} alt={""} />
-            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
               {location}
             </p>
 
@@ -46,7 +46,7 @@ const SingleOffice = ({ office }: { office: OfficeData }) => {
 
           <div className="inline-flex items-baseline">
           <Image className="self-center w-10 h-10 mt-5 mr-10" src={'/images/icon/email.svg'} width={15} height={15} alt={""} />
-            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
               {email}
             </p>
 
@@ -57,7 +57,7 @@ const SingleOffice = ({ office }: { office: OfficeData }) => {
 
           <div className="inline-flex items-baseline">
           <Image className="self-center w-10 h-10 mt-5 mr-14" src={'/images/icon/phone.svg'} width={15} height={15} alt={""} />
-            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+            <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
               {phone}
             </p>
 

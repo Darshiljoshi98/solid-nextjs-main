@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Autoplay, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -83,33 +85,33 @@ const Hero = () => {
       <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
-            {/* COLUMN-1 */}
+
             <div>
-            <div className="w-11/12">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white text-center">
-                🔥 Be Digital  - Patner of Your Growth
-              </h4>
-              <h1 className="mb-5  text-3xl font-bold text-black dark:text-white  text-center">
-                Unlock the power of your online presence and watch your revenue soar with our top-tier SEO services! {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Click Below Button
-                </span>
-              </h1>
+              <div className="w-11/12 ">
+
+                <h1 className="mb-5  text-3xl font-bold DescriptionTextColor  dark:text-white  text-center">
+                  Unlock the power of your online presence and watch your revenue soar with our top-tier SEO services! {"   "}
+                  <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                    Click Below Button
+                  </span>
+                </h1>
 
 
-              <div className="mt-10">
-                <Link
-                  aria-label="get started button"
-                  className="flex rounded-full bg-primary  px-7.5 py-2.5 text-white" href={`/#features`}                    >
-                  Get Started
-                </Link>
+                <div className="mt-10   text-center childData">
+                  <div>
+
+                    <Link
+                      aria-label="get started button"
+                      className="  bg-color p-5  font-bold  text-white" href={`/#features`}                    >
+                      Get Started
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
 
-            {/* COLUMN-2 */}
             <div className="relative">
-            <div className="">
+              <div className="">
                 <Image
                   src="/images/shape/shape-01.png"
                   alt="shape"
@@ -152,6 +154,63 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        {/* <div>
+
+
+        <Swiper
+              spaceBetween={50}
+              slidesPerView={2}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Autoplay, Pagination]}
+              breakpoints={{
+                // when window width is >= 640px
+                0: {
+                  slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                  slidesPerView: 2,
+                },
+              }}
+            >
+            <SwiperSlide>
+              <Image
+                className=""
+                width={900} height={900}
+                src="/images/hero/banner.jpg"
+                alt="Hero"
+
+              /></SwiperSlide>
+            <SwiperSlide>   <Image
+                className=""
+                width={900} height={900}
+                src="/images/hero/banner.jpg"
+                alt="Hero"
+
+              /></SwiperSlide>
+            <SwiperSlide>   <Image
+                className=""
+                width={900} height={900}
+                src="/images/hero/banner.jpg"
+                alt="Hero"
+
+              /></SwiperSlide>
+            <SwiperSlide>   <Image
+                className=""
+                width={500} height={1500}
+                src="/images/hero/banner.jpg"
+                alt="Hero"
+
+              /></SwiperSlide>
+
+          </Swiper>
+        </div> */}
       </section>
       {/* <div>
         <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>

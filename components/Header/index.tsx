@@ -49,14 +49,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/4.svg"
+              src="/images/logo/1.svg"
               alt="logo"
               width={75}
               height={30}
               className="hidden w-full dark:block  w-10 h-10"
             />
             <Image
-              src="/images/logo/4.svg"
+              src="/images/logo/1.svg"
               alt="logo"
               width={75}
               height={30}
@@ -133,7 +133,7 @@ const Header = () => {
                         className={`dropdown ${dropdownToggler ? "flex" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="hover:text-primary">
+                          <li key={key} className="hover:DescriptionTextColor">
                             <Link href={item.path || "#"}>{item.title}</Link>
                           </li>
                         ))}
@@ -144,8 +144,8 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary"
-                          : "hover:text-primary"
+                          ? "DescriptionTextColor hover:DescriptionTextColor"
+                          : "hover:DescriptionTextColor"
                       }
                     >
                       {menuItem.title}

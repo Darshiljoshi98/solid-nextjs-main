@@ -81,7 +81,7 @@ const Feature = () => {
               </div>
 
         
-        <button className="absolute   text-center mt-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white" onClick={movepage}>
+        <button className="absolute   text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle2 font-medium uppercase " onClick={movepage}>
 
         Inquiry now
 

@@ -70,7 +70,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                   Who we are
                 </span> */}
 
-                  <h2 className="ttext-center mb-7 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+                  <h2 className="ttext-center mb-7 text-3xl font-bold DescriptionTextColor text-azure xl:text-sectiontitle2">
                    {title}
                     
                   </h2>

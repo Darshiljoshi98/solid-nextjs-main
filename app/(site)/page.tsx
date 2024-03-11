@@ -38,7 +38,7 @@ export default function Home() {
       <CTA />
       <FAQ />   */}
       <Pricing />
-      {/* <Testimonial /> */}
+      <Testimonial />
       {/* <Gallary /> */}
       {/* <Blog /> */}
       <Contact />

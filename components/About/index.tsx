@@ -135,7 +135,7 @@ const About = () => {
               <div>
                 <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                   <div className="text-center">
-                    <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+                    <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                       Story of Be Digital
                     </p>
                     <p className="pr-10">
@@ -151,7 +151,7 @@ const About = () => {
               </div>
               <div>   <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                 <div className="text-center">
-                  <p className="mt-5 mb-2 pr-5 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+                  <p className="mt-5 mb-2 pr-5 rounded-bl-full rounded-tl-full  bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                     Vision  of Be Digital
                   </p>
                   <p className="pr-10 text">
