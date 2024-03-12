@@ -214,7 +214,7 @@ const Pricing = () => {
                 <div className='col-span-4 pt-4 pl-20 md:pl-22 sm:pl-60' >
                   <div className='flex gap-4'>
                     <div className='footer-icons'>
-                      <Link href="https://facebook.com"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                      <Link href="https://www.facebook.com/profile.php?id=100070063160778"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
                     </div>
                     <div className='footer-icons'>
                       <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
