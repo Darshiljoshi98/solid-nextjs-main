@@ -19,7 +19,7 @@ import Lines from "@/components/Lines";
 export const metadata: Metadata = {
   title: "Be Digital",
   description: "This is Home for Seo ",
-  icons:"/images/logo/data.svg"
+  icons:"/images/logo/favicon.ico"
   // other metadata
 };
 
