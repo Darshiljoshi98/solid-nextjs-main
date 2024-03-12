@@ -173,7 +173,7 @@ pre {
 
 .bg-color{
   /* background-color: cornflowerblue; */
-  background-color: #15803d;
+  background-color: #245127;
   color: azure;
 }
 
@@ -185,7 +185,7 @@ pre {
 
 .stats{
   --tw-bg-opacity: 1;
-  background-color:#15803d;
+  background-color:#245127;
   padding: 1rem;
   color: azure;
 }
