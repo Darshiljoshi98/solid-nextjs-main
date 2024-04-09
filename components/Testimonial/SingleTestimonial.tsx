@@ -33,7 +33,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
       
     
       fileLink.href = fileUrl;
-      fileLink.setAttribute('download', 'downloaded-file.pdf'); 
+      fileLink.setAttribute('download', 'SEO Portfolio-BeDigital.pdf'); 
       
 
       document.body.appendChild(fileLink);

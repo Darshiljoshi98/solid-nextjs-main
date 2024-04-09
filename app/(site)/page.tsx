@@ -27,7 +27,8 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Lines />      {/* <Brands /> */}      
+      {/* <Lines />      */}
+       {/* <Brands /> */}      
 
       <Feature />
       <About/>

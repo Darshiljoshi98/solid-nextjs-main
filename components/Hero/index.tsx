@@ -7,9 +7,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
+  const [showSeondSlideButton, SetshowSeondSlideButton] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+  };
+
+  const sliderChange = (e) => {
+    if (e.activeIndex == 1) {
+      SetshowSeondSlideButton(true);
+    } else {
+      SetshowSeondSlideButton(false);
+    }
   };
 
   return (
@@ -156,15 +165,18 @@ const Hero = () => {
         </div>
       
       </section> */}
+
+      <div></div>
       <div>
-        <div className="grid grid-cols-6 gap-4 pt-35">
-          <div className="col-start-2 col-end-6">
+        <div className="grid grid-cols-12 gap-6 pt-20">
+          <div className="col-start-2 col-end-12">
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
+              onSlideChange={sliderChange}
               autoplay={{
-                delay: 6500,
-                disableOnInteraction: false,
+                delay: 1500,
+                disableOnInteraction: true,
               }}
               pagination={{
                 clickable: true,
@@ -181,41 +193,54 @@ const Hero = () => {
                 },
               }}
             >
-              <SwiperSlide>
+              <SwiperSlide className="relative">
                 <Image
                   className=""
-                  width={1500} height={100}
+                  width={1800}
+                  height={50}
                   src="/images/hero/b1.jpg"
                   alt="Hero"
-
-                /></SwiperSlide>
-              <SwiperSlide>   <Image
-                className=""
-                width={1500} height={500}
-                src="/images/hero/b2.jpg"
-                alt="Hero"
-
-              /></SwiperSlide>
-
-
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <Image
+                  className=""
+                  width={1800}
+                  height={50}
+                  src="/images/hero/b2.jpg"
+                  alt="Hero"
+                />
+              </SwiperSlide>
             </Swiper>
-
           </div>
-          <div className="col-start-1 col-end-3">2</div>
+          <div className="col-start-1 col-end-3"></div>
 
-       
-
-          <div className="col-start-1 col-end-7 ">
-            <div className="mt-10   text-center ">
-              <div>
-
-                <Link
-                  aria-label="get started button"
-                  className="  bg-color p-5  font-bold  text-white" href={`/#features`}                    >
-                  Get Started
-                </Link>
-              </div>
-            </div></div>
+          <div className="col-start-2 col-end-12 ">
+            <div className="text-center ">
+              {showSeondSlideButton ? (
+                <div>
+                  <Link
+                    aria-label="get started button"
+                    className="  bg-color p-5  font-bold  text-white"
+                    href={`/support`}
+                  >
+                    Get Quote
+                  </Link>
+                </div>
+              ) : (
+                <div>
+                  <Link
+                    aria-label="get started button"
+                    className="  bg-color p-5  font-bold  text-white"
+                    href={`/support`}
+                  >
+                    Contact Us
+                  </Link>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </div>
       {/* <div>
@@ -252,8 +277,6 @@ const Hero = () => {
         </div>
 
       </div> */}
-
-
     </>
   );
 };
