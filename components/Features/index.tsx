@@ -5,12 +5,8 @@ import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
 import { useRouter } from "next/navigation";
 
-const Feature = () => {
-  const router = useRouter();
-  const movepage = async () => {
+const Features = () => {
 
-    router.push('/support')
-  }
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
@@ -81,11 +77,7 @@ const Feature = () => {
               </div>
 
         
-        <button className="absolute   text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle2 font-medium uppercase " onClick={movepage}>
-
-        Inquiry now
-
-        </button>
+       
 
             </div>
 
@@ -114,4 +106,4 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default Features;

@@ -1,6 +1,8 @@
 import React from "react";
 import Contact from "@/components/Contact";
 import { Metadata } from "next";
+import Service from "@/components/Service/WebSiteDevlopment";
+import ServiceWebsiteDevlopment from "@/components/Service/WebSiteDevlopment";
 
 export const metadata: Metadata = {
   title: "Service Page - Website Devlopment Page ",
@@ -11,8 +13,8 @@ export const metadata: Metadata = {
 
 const SupportPage = () => {
   return (
-    <div className="pb-20 pt-40">
-      {/* <Contact /> */}
+    <div className="pb-20 pt-15">
+      <ServiceWebsiteDevlopment />
     </div>
   );
 };
