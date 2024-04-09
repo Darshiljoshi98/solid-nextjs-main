@@ -9,7 +9,7 @@ const About = () => {
     <>
       {/* <!-- ===== About Start ===== --> */}
       <section className="overflow-hidden pb-2 lg:pb-5 xl:pb-5 ">
-        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
+        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-10 xl:pt-10">
           {/* <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/spiral.svg"

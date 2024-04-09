@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const CeoPage = () => {
   return (
-    <div className="pb-20">
+    <div className="pb-20 pt-15">
       <About />
     </div>
   );

@@ -82,7 +82,7 @@ const Hero = () => {
           </div>
         </div>
       </section> */}
-      <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      {/* <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
 
@@ -154,14 +154,16 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <div>
-
-
-        <Swiper
+      
+      </section> */}
+      <div>
+        <div className="grid grid-cols-6 gap-4 pt-35">
+          <div className="col-start-2 col-end-6">
+            <Swiper
               spaceBetween={50}
-              slidesPerView={2}
+              slidesPerView={1}
               autoplay={{
-                delay: 2500,
+                delay: 6500,
                 disableOnInteraction: false,
               }}
               pagination={{
@@ -175,43 +177,47 @@ const Hero = () => {
                 },
                 // when window width is >= 768px
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 1,
                 },
               }}
             >
-            <SwiperSlide>
-              <Image
-                className=""
-                width={900} height={900}
-                src="/images/hero/banner.jpg"
-                alt="Hero"
+              <SwiperSlide>
+                <Image
+                  className=""
+                  width={1500} height={100}
+                  src="/images/hero/b1.jpg"
+                  alt="Hero"
 
-              /></SwiperSlide>
-            <SwiperSlide>   <Image
+                /></SwiperSlide>
+              <SwiperSlide>   <Image
                 className=""
-                width={900} height={900}
-                src="/images/hero/banner.jpg"
-                alt="Hero"
-
-              /></SwiperSlide>
-            <SwiperSlide>   <Image
-                className=""
-                width={900} height={900}
-                src="/images/hero/banner.jpg"
-                alt="Hero"
-
-              /></SwiperSlide>
-            <SwiperSlide>   <Image
-                className=""
-                width={500} height={1500}
-                src="/images/hero/banner.jpg"
+                width={1500} height={500}
+                src="/images/hero/b2.jpg"
                 alt="Hero"
 
               /></SwiperSlide>
 
-          </Swiper>
-        </div> */}
-      </section>
+
+            </Swiper>
+
+          </div>
+          <div className="col-start-1 col-end-3">2</div>
+
+       
+
+          <div className="col-start-1 col-end-7 ">
+            <div className="mt-10   text-center ">
+              <div>
+
+                <Link
+                  aria-label="get started button"
+                  className="  bg-color p-5  font-bold  text-white" href={`/#features`}                    >
+                  Get Started
+                </Link>
+              </div>
+            </div></div>
+        </div>
+      </div>
       {/* <div>
         <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
           <div className='grid grid-cols-1 lg:grid-cols-2 my-16'>
