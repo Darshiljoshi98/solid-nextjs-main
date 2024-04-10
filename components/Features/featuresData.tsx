@@ -3,7 +3,7 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/2(1).png",
+    icon: "/images/icon/1(1).svg",
     title: "Website Devlopment",
     routerUrl:"WebsiteDevlopment",
     description:
@@ -12,7 +12,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    icon: "/images/icon/1(1).png",
+    icon: "/images/icon/2(1).png",
     title: "Search Engine optimization",
     routerUrl:"SearchEngineoptimization",
     description:

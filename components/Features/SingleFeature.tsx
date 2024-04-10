@@ -37,13 +37,15 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
               </button>
         
      
-     <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px] ">
-          <Image src={icon} width={50} height={50} alt="title" />
-        </div>
-        <h3 className="text-center mb-5 mt-7.5 text-xl font-semibold DescriptionTextColor dark:text-white xl:text-itemtitle">
-          {title}
+     {/* <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px] ">
+          <Image src={icon} width={75} height={75} alt="title" />
+        </div> */}
+        <h3 className="text-center mb-5 mt-7.5 text-xl font-semibold DescriptionTextColor dark:text-white xl:text-itemtitle">       
+       {title}        
+
         </h3>
 
+      
         <p className="text-wrap text-center">{description}</p>   
 
 
