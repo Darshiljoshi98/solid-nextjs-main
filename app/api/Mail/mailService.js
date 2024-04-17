@@ -12,8 +12,8 @@ export async function sendMail(username,email,phone,subject,message) {
 
   var mailOptions = {
     from: 'darshil2015@gmail.com',
-    to: 'darshiljoshi8@gmail.com',
-    subject: 'New inquiry From Contacyt us Form',   
+    to: 'darshiljoshi8@gmail.com,seo.bedigital@gmail.com',
+    subject: 'New inquiry From Contact us Form',   
     text: `Hello,Darshil`,
     html: `<p>    
     You recently Recived New Request.

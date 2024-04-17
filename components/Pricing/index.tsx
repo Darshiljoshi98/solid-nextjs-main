@@ -9,7 +9,7 @@ const Pricing = () => {
   return (
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
-      <section className="overflow-hidden pb-20 pt-15 lg:pb-25 xl:pb-30">
+      <section className="overflow-hidden pb-5 pt-5 lg:pb-10 xl:pb-10">
         {/* <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
  
           <div className="animate_top mx-auto text-center">
@@ -206,10 +206,10 @@ const Pricing = () => {
           {/* <Image src="./images/shape/spiral.svg" height={272} width={686} alt="spiral-design" className="absolute left-0 hidden lg:block -z-10" /> */}
 
           <div className='mx-auto max-w-7xl px-4 my-2 sm:py-10 lg:px-8'>
-            <div className='grid grid-cols-1 md:grid-cols-2 my-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 my-5'>
               {/* COLUMN-1 */}
               <div>
-                <Image src="/images/user/ceo3.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+                <Image src="/images/user/ceo4.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
 
                 <div className='col-span-4 pt-4 pl-20 md:pl-22 sm:pl-60' >
                   <div className='flex gap-4'>

@@ -37,8 +37,8 @@ const About = () => {
             </div>
 
           </div>
-          <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0 pt-6">
-            <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
+          <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0 pt-4">
+            <div className='grid grid-cols-1 md:grid-cols-2 my-10'>
               <div>      <motion.div
                 variants={{
                   hidden: {
@@ -131,14 +131,14 @@ const About = () => {
 
           <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 rounded-3xl '>
 
-            <div className='grid grid-cols-1  my-16 mx-5 gap-5'>
+            <div className='grid grid-cols-1  my-5 mx-5 gap-5'>
               <div>
-                <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
+                <div className=" px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                   <div className="text-center">
                     <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                       Story of Be Digital
                     </p>
-                    <p className="pr-10">
+                    <p className="pr-10 text-2xl">
                       Introducing Be Digital, founded by a passionate B-Tech graduate with six years of professional
                       background in SEO, web development, and digital marketing. With her deep understanding of
                       technology and a keen eye for digital trends, she recognized the immense potential of helping
@@ -149,12 +149,12 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div>   <div className="pt-12 px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
+              <div>   <div className="px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                 <div className="text-center">
                   <p className="mt-5 mb-2 pr-5 rounded-bl-full rounded-tl-full  bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
                     Vision  of Be Digital
                   </p>
-                  <p className="pr-10 text">
+                  <p className="pr-10 text-2xl">
                     Our vision is crystal clear: to deliver top-quality SEO services that propel your website to the
                     pinnacle of Google rankings. Whether you're a business seeking to handle SEO clients or an
                     individual looking to optimize your website, we've got the expertise to assist you. Our expert

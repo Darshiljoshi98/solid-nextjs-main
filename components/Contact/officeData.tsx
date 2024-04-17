@@ -15,8 +15,8 @@ const countryaData: OfficeData[] = [
     icon: "/images/user/usa.svg",
     title: "USA",
     location:
-      " Janpath society near hirabhai tower,Ahemdabad",
-      phone: '+91 7874074605',
+      "8527 Dexter Court GROUND FLOOR Suite 1A WOODHAVEN, NY 11421",
+      phone: '+1 (516) 304-0124',
       email: 'zarnamehtait@gmail.com'
       
   }

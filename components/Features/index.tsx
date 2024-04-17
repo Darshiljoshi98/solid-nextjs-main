@@ -23,7 +23,7 @@ const Features = () => {
           />
           {/* <!-- Section Title End --> */}
 
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 my-20">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 my-5">
             <div className="col-span-1 text-black mt-25">
               <div className=" grid gap-8 grid-flow-row">
 

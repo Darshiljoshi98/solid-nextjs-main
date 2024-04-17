@@ -301,7 +301,7 @@ const Contact = () => {
                 <h4 className="text-center mt-4 mb-4 text-metatitle3 font-medium DescriptionTextColor dark:text-white">
                Map
                 </h4>
-                <p>                 
+                <p className="pl-16 sm:pl-45 md:pl-0 lg:pl-0 xl:pl-0 2xl:pl-0">                 
                   <iframe className="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14691.957107178925!2d72.6070983!3d22.9874218!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85616662956d%3A0x27b12950b346591e!2sJoshi%20house!5e0!3m2!1sen!2sus!4v1709644451654!5m2!1sen!2sus" loading="lazy"></iframe>
                    
                 </p>
