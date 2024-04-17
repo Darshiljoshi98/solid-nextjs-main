@@ -27,8 +27,8 @@ const ThemeToggler = () => {
           className="hidden dark:block"
         />
       </button> */}
-      <h1 className=" font-semibold DescriptionTextColor"> +91 8460364879</h1>
-      <a href="tel:+8460364879">sss +91 8460364879</a>
+      <a href="tel:+91 7874074605" className=" font-semibold DescriptionTextColor"> +91 7874074605</a>
+
     </div>
   );
 };

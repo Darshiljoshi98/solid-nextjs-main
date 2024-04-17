@@ -6,4 +6,5 @@ export type OfficeData = {
   location: string;
   phone: string;
   email: string;
+  phoneLink:string;
 };

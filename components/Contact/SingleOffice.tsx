@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const SingleOffice = ({ office }: { office: OfficeData }) => {
-  const { icon, title, location, email, phone } = office;
+  const { icon, title, location, email, phone,phoneLink } = office;
 
   return (
     <>
@@ -30,51 +30,53 @@ const SingleOffice = ({ office }: { office: OfficeData }) => {
           <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px]">
             <Image src={icon} width={50} height={50} alt="title" />
           </div>
-          <h3 className="mb-5 mt-7.5 text-center text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
-            {title}
-          </h3>
-          <div className="text-center">
+     
+          <div>
             <div className="inline-flex items-baseline">
-              <Image
-                className="h-15 w-15 self-center"
+            <Image
+                className="h-10 w-10 self-center"
                 src={"/images/icon/location.svg"}
                 width={15}
                 height={15}
                 alt={""}
               />
-              <p className="bg-color mr-10 mt-5 rounded-bl-full rounded-tl-full px-4.5 py-1 text-center text-metatitle2 font-medium  text-white">
+              <p className="ml-5 text-center DescriptionTextColor">
+              
                 {location}
               </p>
             </div>
           </div>
-          <div className="text-center">
+          <div>
             <div className="inline-flex items-baseline">
-              <Image
-                className="mr-10 mt-5 h-10 w-10 self-center"
+            <Image
+                className="h-10 w-10 self-center"
                 src={"/images/icon/email.svg"}
                 width={15}
                 height={15}
                 alt={""}
               />
-              <p className="bg-color mr-10 mt-5 rounded-bl-full rounded-tl-full px-4.5 py-1 text-center text-metatitle2 font-medium  text-white">
+              <p className="ml-5 text-center DescriptionTextColor">
+              
                 {email}
               </p>
             </div>
           </div>
-          <div className="text-center">
+          <div>
             <div className="inline-flex items-baseline">
-              <Image
-                className="mr-14 mt-5 h-10 w-10 self-center"
+            <Image
+                className="h-10 w-10 self-center"
                 src={"/images/icon/phone.svg"}
                 width={15}
                 height={15}
                 alt={""}
               />
-              <p className="bg-color mr-10 mt-5 rounded-bl-full rounded-tl-full px-4.5 py-1 text-center text-metatitle2 font-medium  text-white">
-                {phone}
+              <p className="ml-5 text-center DescriptionTextColor">
+              
+              <a href={phoneLink}>{phone}</a>
               </p>
             </div>
           </div>
+
         </div>
       </motion.div>
     </>

@@ -209,18 +209,19 @@ const Pricing = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 my-5'>
               {/* COLUMN-1 */}
               <div>
-                <Image src="/images/user/ceo4.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
+                <Image src="/images/user/ceo3.jpg" alt="man-icon" width={416} height={530} className="mx-auto md:mx-0" />
 
-                <div className='col-span-4 pt-4 pl-20 md:pl-22 sm:pl-60' >
+                <div className='col-span-4 pt-4 pl-10 xl:pl-15 md:pl-10 sm:pl-45' >
                   <div className='flex gap-4'>
+                    
                     <div className='footer-icons'>
-                      <Link href="https://www.facebook.com/profile.php?id=100070063160778"><Image src={'/images/user/facebook.svg'} alt="facebook" width={15} height={20} /></Link>
+                      <Link href="https://www.facebook.com/profile.php?id=100070063160778"><Image src={'/images/about/facebook2.svg'} alt="facebook" width={50} height={50} /></Link>
                     </div>
                     <div className='footer-icons'>
-                      <Link href="https://twitter.com"><Image src={'/images/user/instagram.svg'} alt="instagram" width={20} height={20} /></Link>
+                      <Link href="https://twitter.com"><Image src={'/images/about/instagram2.svg'} alt="instagram" width={50} height={50} /></Link>
                     </div>
                     <div className='footer-icons'>
-                      <Link href="https://instagram.com"><Image src={'/images/user/gmail.svg'} alt="gmail" width={20} height={20} /></Link>
+                      <Link href="https://instagram.com"><Image src={'/images/about/gmail2.svg'} alt="gmail" width={50} height={50} /></Link>
                     </div>
                   </div>
                 </div>
@@ -232,7 +233,7 @@ const Pricing = () => {
                 <Image src="./images/user/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
                 <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start DescriptionTextColor  ">Dedicated to help peoples design needs.</h2>
                 <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start text-wrap">Welcome to Be Digital, where we redefine the boundaries of digital visibility and search engine optimization. In today's digital era, the significance of a robust online presence cannot be overstated. As the CEO of Be Digital, my mission is not just to lead our company into the forefront of the SEO industry but to ensure we are instrumental in transforming the digital landscapes of our clients.</p>
-                <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start subtitleTextColor">Darshil Joshi, CEO </p>
+                <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start subtitleTextColor">Zarna Joshi, CEO </p>
 
               </div>
 

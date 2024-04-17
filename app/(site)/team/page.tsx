@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 const CeoPage = () => {
   return (
-    <div className="pb-20 pt-15">
-      <Pricing />
+    <div className="pb-20 pt-20">
+      <Gallary />
     </div>
   );
 };
