@@ -67,10 +67,9 @@ const Testimonial = () => {
                   slidesPerView: 1,
                 },
                 // when window width is >= 768px
-                768: {
-                  slidesPerView: 2,
-                },
+              
               }}
+
             >
               {testimonialData.map((review) => (
                 <SwiperSlide key={review?.id}>

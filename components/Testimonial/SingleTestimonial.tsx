@@ -48,8 +48,16 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   };
   
   return (
-    <div className="rounded-lg bg-white p-9 pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
-      <div className="mb-7.5 flex justify-between border-b border-stroke pb-6 dark:border-strokedark">
+    <div className="rounded-lg relative bg-white p-9 pt-7.5 shadow-solid-9 dark:border h-30 sm:h-30 md:pl-h-50 lg:h-72 xl:h-65 2xl:h-67 dark:border-strokedark dark:bg-blacksection dark:shadow-none">
+            <button onClick={handleClick}>
+        <div className="absolute   -right-3.5 top-2.5 -rotate-60 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle font-medium uppercase text-white cursor-pointer">
+
+          Download our Portfolio
+
+        </div>
+
+      </button>
+      <div className="mb-7.5 flex justify-between border-b border-stroke pb-6 dark:border-strokedark ">
         <div>
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
             {name}
@@ -59,15 +67,8 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
         <Image width={60} height={50} className="" src={image} alt={name} />
       </div>
 
-      <p>{content}</p>
-      <button onClick={handleClick}>
-        <div className="absolute   rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
+      <p className="text-balance">{content}</p>
 
-          Download our Portfolio
-
-        </div>
-
-      </button>
     </div>
   );
 };

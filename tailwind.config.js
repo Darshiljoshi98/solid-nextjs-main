@@ -142,6 +142,12 @@ module.exports = {
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
       },
+      height:{
+        30: "30rem",
+        35: "35rem",
+        40: "40rem",
+        45: "45rem",
+      }
     },
   },
   plugins: [],

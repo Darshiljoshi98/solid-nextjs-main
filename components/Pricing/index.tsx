@@ -221,7 +221,7 @@ const Pricing = () => {
                       <Link href="https://twitter.com"><Image src={'/images/about/instagram2.svg'} alt="instagram" width={50} height={50} /></Link>
                     </div>
                     <div className='footer-icons'>
-                      <Link href="https://instagram.com"><Image src={'/images/about/gmail2.svg'} alt="gmail" width={50} height={50} /></Link>
+                      <Link href="mailto:seo.bedigital@gmail.com"><Image src={'/images/about/gmail2.svg'} alt="gmail" width={50} height={50} /></Link>
                     </div>
                   </div>
                 </div>
