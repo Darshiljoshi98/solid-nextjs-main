@@ -27,7 +27,10 @@ const ThemeToggler = () => {
           className="hidden dark:block"
         />
       </button> */}
+
+<div className="animate-pulse">
       <a href="tel:+91 7874074605" className=" font-semibold DescriptionTextColor"> +91 7874074605</a>
+</div>
 
     </div>
   );

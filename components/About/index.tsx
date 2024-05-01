@@ -135,10 +135,10 @@ const About = () => {
               <div>
                 <div className=" px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                   <div className="text-center">
-                    <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+                    <p className="mt-5 mb-2    rounded-bl-full rounded-tl-full bg-color px-4.5 py-1 mr-10 text-metatitle5 font-medium  text-white">
                       Story of Be Digital
                     </p>
-                    <p className="pr-10 text-2xl">
+                    <p className="pr-10 text-xl">
                       Introducing Be Digital, founded by a passionate B-Tech graduate with six years of professional
                       background in SEO, web development, and digital marketing. With her deep understanding of
                       technology and a keen eye for digital trends, she recognized the immense potential of helping
@@ -151,10 +151,10 @@ const About = () => {
               </div>
               <div>   <div className="px-10 sm:px-24 pb-30 md:pb-10 rounded-3xl">
                 <div className="text-center">
-                  <p className="mt-5 mb-2 pr-5 rounded-bl-full rounded-tl-full  bg-color px-4.5 py-1 mr-10 text-metatitle2 font-medium  text-white">
+                  <p className="mt-5 mb-2 pr-5 rounded-bl-full rounded-tl-full  bg-color px-4.5 py-1 mr-10 text-metatitle5 font-  text-white">
                     Vision  of Be Digital
                   </p>
-                  <p className="pr-10 text-2xl">
+                  <p className="pr-10 text-xl">
                     Our vision is crystal clear: to deliver top-quality SEO services that propel your website to the
                     pinnacle of Google rankings. Whether you're a business seeking to handle SEO clients or an
                     individual looking to optimize your website, we've got the expertise to assist you. Our expert

@@ -215,7 +215,7 @@ const Hero = () => {
             </Swiper>
           </div>
           <div className="col-start-1 col-end-3"></div>
-
+{/* 
           <div className="col-start-2 col-end-12 ">
             <div className="text-center ">
               {showSeondSlideButton ? (
@@ -240,7 +240,7 @@ const Hero = () => {
                 </div>
               )}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <div>

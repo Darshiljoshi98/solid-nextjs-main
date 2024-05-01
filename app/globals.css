@@ -179,9 +179,15 @@ pre {
 
 
 .text-metatitle2{
-  line-height: 33x;
+  line-height: 33px;
   font-size: 15px;
 }
+
+.text-metatitle5{
+  line-height: 35px;
+  font-size: 22px;
+}
+
 
 .stats{
   --tw-bg-opacity: 1;
