@@ -47,12 +47,12 @@ const menuData: Menu[] = [
     path: "/about",
   
   },
-  {
-    id: 2.1,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
+  // {
+  //   id: 2.1,
+  //   title: "Blog",
+  //   newTab: false,
+  //   path: "/blog",
+  // },
   {
     id: 2.3,
     title: "Contact",  
