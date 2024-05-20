@@ -48,7 +48,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   };
   
   return (
-    <div className="rounded-lg relative bg-white p-9 pt-7.5 shadow-solid-9 dark:border h-30 sm:h-30 md:pl-h-50 lg:h-72 xl:h-65 2xl:h-67 dark:border-strokedark dark:bg-blacksection dark:shadow-none">
+    <div className="rounded-lg relative bg-white p-9 pt-7.5 shadow-solid-9 dark:border h-35 sm:h-30 md:pl-h-50 lg:h-72 xl:h-65 2xl:h-67 dark:border-strokedark dark:bg-blacksection dark:shadow-none">
             <button onClick={handleClick}>
         <div className="absolute   -right-3.5 top-2.5 -rotate-60 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle font-medium uppercase text-white cursor-pointer">
 

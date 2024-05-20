@@ -204,7 +204,7 @@ const Footer = () => {
           <span>© 2024 Copyright:</span>
           <a
             className="font-semibold subtitleTextColor  dark:text-neutral-400"
-            href="https://tw-elements.com/"
+            href="https://www.bedigital.live/"
           >  Be Digital</a>
         </div>
 
