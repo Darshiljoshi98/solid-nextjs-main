@@ -240,7 +240,7 @@ const Contact = () => {
                 <div>
                   {status === 'success' &&
                     <p className="text-center mt-5 rounded-bl-full rounded-tl-full bg-color px-4.5 py-1.5 text-metatitle2 font-medium uppercase text-white">
-                      Thanks,We will contact you again shortly
+                      Thanks,We will contact you again shortly.
                     </p>
                   }
                   {status === 'error' &&
