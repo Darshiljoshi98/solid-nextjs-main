@@ -19,7 +19,7 @@ const SearchEngineoptimization = () => {
             headerInfo={{        
               title:'',      
               subtitle: "Services",
-              description: `web development service`,
+              description: `Search Engine optimization`,
             }}
           />        
         </div>
