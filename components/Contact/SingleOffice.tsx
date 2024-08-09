@@ -62,6 +62,7 @@ const SingleOffice = ({ office }: { office: OfficeData }) => {
             </div>
           </div>
           <div>
+            
             <div className="inline-flex items-baseline">
             <Image
                 className="h-10 w-10 self-center"
