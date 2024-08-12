@@ -22,17 +22,17 @@ const countryaData: OfficeData[] = [
       email: 'zarnamehtait@gmail.com'
       
   },
-  {
-    id: 3,
-    icon: "/images/user/aus.svg",
-    title: "Australia",
-    location:
-      "8527 Dexter Court GROUND FLOOR Suite 1A WOODHAVEN, NY 11421",
-      phone: '+1 (516) 304-0124',
-      phoneLink:'tel:+1 (516) 304-0124',
-      email: 'zarnamehtait@gmail.com'
+  // {
+  //   id: 3,
+  //   icon: "/images/user/aus.svg",
+  //   title: "Australia",
+  //   location:
+  //     "8527 Dexter Court GROUND FLOOR Suite 1A WOODHAVEN, NY 11421",
+  //     phone: '+1 (516) 304-0124',
+  //     phoneLink:'tel:+1 (516) 304-0124',
+  //     email: 'zarnamehtait@gmail.com'
       
-  }
+  // }
  
 ];
 
