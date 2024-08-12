@@ -61,7 +61,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                   whileInView="visible"
                   transition={{ duration: 0.5, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_right pt-10 md:pl-20 md:pt-25"
+                  className="animate_right pt-10 md:pl-20 md:pt-10"
                 >
                   {/* <span className="font-medium uppercase text-black dark:text-white">
                   <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle2 uppercase text-white ">
@@ -77,10 +77,10 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                   <p className="text-center">
                  {desc1}
                   </p>
-                  <p className="text-center">
+                  <p className="text-center mt-5">
                  {desc2}
                   </p>
-                  <p className="text-center">
+                  <p className="text-center mt-5">
                  {desc3}
                   </p>
 

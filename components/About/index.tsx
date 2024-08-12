@@ -88,7 +88,7 @@ const About = () => {
                   whileInView="visible"
                   transition={{ duration: 0.5, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_right pt-10 md:pl-20 md:pt-25"
+                  className="animate_right pt-10 md:pl-20 md:pt-10"
                 >
                   {/* <span className="font-medium uppercase text-black dark:text-white">
                   <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle2 uppercase text-white ">
@@ -105,13 +105,19 @@ const About = () => {
                   </h2>
                   <p className="text-center">
                     Welcome to Be Digital, a women-owned SEO agency dedicated to providing exceptional SEO
-                    services for individuals and digital business owners worldwide. We're here to help you attract
+                    services for individuals and digital business owners worldwide.
+                  </p>
+                  <p className="text-center mt-5">
+                    We're here to help you attract
                     more qualified traffic to your website, focusing on the search terms that are crucial for your
                     business success. By optimizing every aspect that affects search engine rankings, we ensure
                     measurable results. Trust our proven expertise to enhance your online visibility and set your
                     business on the path to long-term success.
                   </p>
-
+                  <p className="text-center mt-5">
+                   Trust our proven expertise to enhance your online visibility and set your
+                    business on the path to long-term success.
+                  </p>
 
 
                 </motion.div>
@@ -140,10 +146,16 @@ const About = () => {
                     </p>
                     <p className="pr-10 text-xl">
                       Introducing Be Digital, founded by a passionate B-Tech graduate with six years of professional
-                      background in SEO, web development, and digital marketing. With her deep understanding of
+                      background in SEO, web development, and digital marketing. 
+                    </p>
+                    <p className="pr-10 text-xl mt-5">
+                     With her deep understanding of
                       technology and a keen eye for digital trends, she recognized the immense potential of helping
                       businesses thrive in the online world. Her journey took a new turn with motherhood, igniting
-                      her passion for business. Thus, Be Digital was born, with a mission to assist individuals
+                      her passion for business. 
+                    </p>
+                    <p className="pr-10 text-xl mt-5">
+                       Thus, Be Digital was born, with a mission to assist individuals
                       worldwide in managing their SEO and enhancing website ranking.
                     </p>
                   </div>
@@ -156,8 +168,18 @@ const About = () => {
                   </p>
                   <p className="pr-10 text-xl">
                     Our vision is crystal clear: to deliver top-quality SEO services that propel your website to the
-                    pinnacle of Google rankings. Whether you're a business seeking to handle SEO clients or an
+                    pinnacle of Google rankings.
+
+                  </p>
+                  <p className="pr-10 text-xl mt-5">
+                    Whether you're a business seeking to handle SEO clients or an
                     individual looking to optimize your website, we've got the expertise to assist you. Our expert
+                    team is dedicated to enhancing the visibility of both local and digital businesses on the Google
+                    search engine, ensuring that your brand stands out amidst the digital noise..
+
+                  </p>
+                  <p className="pr-10 text-xl mt-5">
+                 Our expert
                     team is dedicated to enhancing the visibility of both local and digital businesses on the Google
                     search engine, ensuring that your brand stands out amidst the digital noise..
 

@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, description,routerUrl } = feature;
+  const { icon, title, description,routerUrl,description1 } = feature;
   const router = useRouter();
   const movepage = async () => {
 
@@ -47,6 +47,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
 
       
         <p className="text-wrap text-center">{description}</p>   
+        <p className="text-wrap text-center mt-5">{description1}</p>   
 
 
 

@@ -3,5 +3,6 @@ export type Feature = {
   icon: string;
   title: string;
   description: string;
+  description1: string;
   routerUrl:string
 };

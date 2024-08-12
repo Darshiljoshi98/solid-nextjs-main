@@ -108,14 +108,14 @@ const Header = () => {
             }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10 text-lg">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-DescriptionTextColor"
+                        className="flex cursor-pointer items-center justify-between gap-5 text-lg hover:text-DescriptionTextColor"
                       >
                         {menuItem.title}
                         <span>
