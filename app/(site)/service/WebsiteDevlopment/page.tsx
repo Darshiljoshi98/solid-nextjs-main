@@ -3,6 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 import Service from "@/components/Service/WebSiteDevlopment";
 import ServiceWebsiteDevlopment from "@/components/Service/WebSiteDevlopment";
+import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Service Page - Website Devlopment Page ",
@@ -15,6 +16,7 @@ const SupportPage = () => {
   return (
     <div className="pb-20 pt-15">
       <ServiceWebsiteDevlopment />
+      <Testimonial />
     </div>
   );
 };
