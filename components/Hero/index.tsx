@@ -22,6 +22,8 @@ const Hero = () => {
   };
 
   return (
+
+    
     <>
       {/* <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
@@ -165,11 +167,57 @@ const Hero = () => {
         </div>
       
       </section> */}
+ <section className="overflow-hidden  pt-35 md:pt-40 xl:pb-20 xl:pt-20">
+ <div className="mx-auto  px-4 md:px-8 2xl:px-0">
 
-      <div></div>
+ <Swiper
+              spaceBetween={50}
+              slidesPerView={1}
+              onSlideChange={sliderChange}
+              autoplay={{
+                delay: 1500,
+                disableOnInteraction: true,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Autoplay, Pagination]}
+              breakpoints={{
+                // when window width is >= 640px
+                0: {
+                  slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                  slidesPerView: 1,
+                },
+              }}
+            >
+              <SwiperSlide className="relative">
+                <Image
+                  className=""
+                  width={5000}
+                  height={50}
+                  src="/images/hero/b1.jpg"
+                  alt="Hero"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                {" "}
+                <Image
+                  className=""
+                  width={5000}
+                  height={50}
+                  src="/images/hero/b2.jpg"
+                  alt="Hero"
+                />
+              </SwiperSlide>
+            </Swiper>
+</div>
+</section>
       <div>
         <div className="grid grid-cols-12 gap-6 pt-20">
-          <div className="col-start-2 col-end-12">
+          {/* <div className="col-start-2 col-end-12">
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
@@ -214,7 +262,7 @@ const Hero = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-start-1 col-end-3"></div>
+          <div className="col-start-1 col-end-3"></div> */}
 {/* 
           <div className="col-start-2 col-end-12 ">
             <div className="text-center ">
@@ -243,6 +291,9 @@ const Hero = () => {
           </div> */}
         </div>
       </div>
+
+
+      
       {/* <div>
         <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
           <div className='grid grid-cols-1 lg:grid-cols-2 my-16'>
