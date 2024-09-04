@@ -12,7 +12,8 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
     <>
     
       <div className='grid grid-cols-1 md:grid-cols-2 my-16'>
-              <div>      <motion.div
+              <div className=''>      
+              <motion.div
                 variants={{
                   hidden: {
                     opacity: 0,
@@ -42,7 +43,8 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                   className="hidden dark:block"
                   fill
                 />
-              </motion.div></div>
+              </motion.div>
+              </div>
               <div>
 
                 <motion.div
@@ -70,17 +72,17 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                   Who we are
                 </span> */}
 
-                  <h2 className="ttext-center mb-7 text-3xl font-bold DescriptionTextColor text-azure xl:text-sectiontitle2">
+                  <h2 className="text-center mb-7 text-3xl font-bold DescriptionTextColor text-azure xl:text-sectiontitle2">
                    {title}
                     
                   </h2>
-                  <p className="text-center">
+                  <p className="text-center text-xl">
                  {desc1}
                   </p>
-                  <p className="text-center mt-5">
+                  <p className="text-center text-xl mt-5">
                  {desc2}
                   </p>
-                  <p className="text-center mt-5">
+                  <p className="text-center text-xxl  mt-5">
                  {desc3}
                   </p>
 

@@ -167,7 +167,7 @@ const Hero = () => {
         </div>
       
       </section> */}
- <section className="overflow-hidden  pt-35 md:pt-40 xl:pb-20 xl:pt-20">
+ <section className="overflow-hidden  pt-35 md:pt-40 xl:pb-10 xl:pt-20">
  <div className="mx-auto  px-4 md:px-8 2xl:px-0">
 
  <Swiper
@@ -216,7 +216,7 @@ const Hero = () => {
 </div>
 </section>
       <div>
-        <div className="grid grid-cols-12 gap-6 pt-20">
+        <div className="grid grid-cols-12 gap-6 pt-10">
           {/* <div className="col-start-2 col-end-12">
             <Swiper
               spaceBetween={50}
