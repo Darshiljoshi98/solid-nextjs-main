@@ -47,9 +47,7 @@ const Contact = () => {
     setisDisabled(true)
     
     e.preventDefault();
-    console.log(user.username)
-    console.log(user.email)
-    console.log(user.phone)
+
 
     try {
       const response = await fetch('/api/Contact', {

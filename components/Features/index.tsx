@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
-      <section id="features" className="py-20 lg:py-25 xl:py-10 ">
+      <section id="features" className="py-5 lg:py-25 xl:py-10 ">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0 pt-10">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
@@ -25,9 +25,9 @@ const Features = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 my-2">
             <div className="col-span-1  text-black mt-25 ml-15">
-              <div className=" grid gap-8 grid-flow-row">
+              <div className=" grid gap-8 sm:gap-3 grid-flow-row">
 
-                <div className="stats aos-init aos-animate text-center" >
+                <div className="stats aos-init aos-animate text-center " >
                   <b>
                     400+ P/M
                   </b>
