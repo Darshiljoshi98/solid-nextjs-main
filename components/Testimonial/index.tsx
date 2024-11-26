@@ -8,10 +8,32 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import SingleTestimonial from "./SingleTestimonial";
-import { testimonialData } from "./testimonialData";
 
 const Testimonial = () => {
+  const [testimonialData, setTestimonialData] = useState([]);
+console.log(testimonialData)
+  useEffect(() => {
+    getList();
+  }, []);
+
+  const getList = async () => {
+    try {
+      const response = await fetch("/api/Testmonial");
+      const data = await response.json();
+
+      // Assuming the API response includes a `data` field
+      if (data) {
+        setTestimonialData(data.data);
+      } else {
+        console.error("Unexpected API response format:", data);
+      }
+    } catch (error) {
+      console.error("Error fetching testimonials:", error);
+    }
+  };
+
   return (
     <>
       <section>
@@ -19,8 +41,8 @@ const Testimonial = () => {
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
-              headerInfo={{   
-                title:'',        
+              headerInfo={{
+                title: "",
                 subtitle: `Client’s Testimonials`,
                 description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
               }}
@@ -62,20 +84,21 @@ const Testimonial = () => {
               }}
               modules={[Autoplay, Pagination]}
               breakpoints={{
-                // when window width is >= 640px
                 0: {
                   slidesPerView: 1,
                 },
-                // when window width is >= 768px
-              
               }}
-
             >
-              {testimonialData.map((review) => (
-                <SwiperSlide key={review?.id}>
+              {testimonialData.length > 0 ? (
+                testimonialData.map((review, index) => (
+                  <SwiperSlide key={index}>
                   <SingleTestimonial review={review} />
                 </SwiperSlide>
-              ))}
+             
+                ))
+              ) : (
+                <p className="text-center text-gray-500">No testimonials available</p>
+              )}
             </Swiper>
           </div>
         </motion.div>

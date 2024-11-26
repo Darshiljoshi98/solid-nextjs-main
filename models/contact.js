@@ -27,6 +27,6 @@ const contactSchema = new mongoose.Schema(
         timestamps: true,
     })
 
-const Contact = mongoose.models.clientdatas ?? mongoose.model('clientdatas', contactSchema)
+const Contact = mongoose.models.clientInqury ?? mongoose.model('clientInqury', contactSchema)
 
 export default  Contact;

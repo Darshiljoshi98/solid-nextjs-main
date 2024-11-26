@@ -3,7 +3,8 @@ import Image from "next/image";
 import '/'
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
-  const { name, designation, image, content, pdflink } = review;
+
+  const { clientname, clientDesignation, clientFeedback, pdflink } = review;
   // const handleClick = async () => {   
   //   // Download image.png from API
   //   const apiResponse = await fetch('/api/file');
@@ -16,6 +17,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   //   imageLink.click();
   //   window.URL.revokeObjectURL(imageUrl);
   // };
+const image ="g"
 
   const handleClick = async () => {   
     try {
@@ -60,14 +62,14 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
       <div className="mb-7.5 flex justify-between border-b border-stroke pb-6 dark:border-strokedark ">
         <div>
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
-            {name}
+            {clientname}
           </h3>
-          <p>{designation}</p>
+          <p>{clientDesignation}</p>
         </div>
-        <Image width={60} height={50} className="" src={image} alt={name} />
+        <Image width={60} height={50} className="" src={"/images/user/user01.svg"} alt={clientname} />
       </div>
 
-      <p className="text-balance">{content}</p>
+      <p className="text-balance">{clientFeedback}</p>
 
     </div>
   );

@@ -6,4 +6,7 @@ export type Testimonial = {
   content: string;
   designation: string;
   pdflink?:any
+  clientname:string;
+  clientDesignation:string,
+   clientFeedback:string
 };
