@@ -10,30 +10,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import SingleTestimonial from "./SingleTestimonial";
+import { testimonialData } from "./testimonialData";
 
 const Testimonial = () => {
-  const [testimonialData, setTestimonialData] = useState([]);
-console.log(testimonialData)
-  useEffect(() => {
-    getList();
-  }, []);
-
-  const getList = async () => {
-    try {
-      const response = await fetch("/api/Testmonial");
-      const data = await response.json();
-
-      // Assuming the API response includes a `data` field
-      if (data) {
-        setTestimonialData(data.data);
-      } else {
-        console.error("Unexpected API response format:", data);
-      }
-    } catch (error) {
-      console.error("Error fetching testimonials:", error);
-    }
-  };
-
   return (
     <>
       <section>

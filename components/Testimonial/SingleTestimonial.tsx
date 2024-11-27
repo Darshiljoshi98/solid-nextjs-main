@@ -4,7 +4,7 @@ import '/'
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
 
-  const { clientname, clientDesignation, clientFeedback, pdflink } = review;
+  const { name, designation, content, pdflink } = review;
   // const handleClick = async () => {   
   //   // Download image.png from API
   //   const apiResponse = await fetch('/api/file');
@@ -62,14 +62,14 @@ const image ="g"
       <div className="mb-7.5 flex justify-between border-b border-stroke pb-6 dark:border-strokedark ">
         <div>
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
-            {clientname}
+            {name}
           </h3>
-          <p>{clientDesignation}</p>
+          <p>{designation}</p>
         </div>
-        <Image width={60} height={50} className="" src={"/images/user/user01.svg"} alt={clientname} />
+        <Image width={60} height={50} className="" src={"/images/user/user01.svg"} alt={name} />
       </div>
 
-      <p className="text-balance">{clientFeedback}</p>
+      <p className="text-balance">{content}</p>
 
     </div>
   );
