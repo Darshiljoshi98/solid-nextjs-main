@@ -283,7 +283,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p className="text-center">
-                  <a href="#">zarnamehtait@gmail.com</a>
+                  <a href="#">zarnaj@bedigitalworld.com</a>
                 </p>
               </div>
               <div>
